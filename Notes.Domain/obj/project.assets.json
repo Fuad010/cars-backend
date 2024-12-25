@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\NotesBackend\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
       "projectName": "Notes.Domain",
-      "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\NotesBackend\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
+      "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
       "packagesPath": "C:\\Users\\dezhu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\NotesBackend\\Notes.Backend\\Notes.Domain\\obj\\",
+      "outputPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

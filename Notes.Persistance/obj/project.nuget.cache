@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "juKpEMAaM9U=",
+  "dgSpecHash": "XrhVJs8WpSk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\NotesBackend\\Notes.Backend\\Notes.Persistance\\Notes.Persistance.csproj",
+  "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Persistance\\Notes.Persistance.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dezhu\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\dezhu\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\dezhu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.5\\microsoft.data.sqlite.core.5.0.5.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
@@ -29,7 +32,8 @@
     "C:\\Users\\dezhu\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "C:\\Users\\dezhu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\dezhu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\dezhu\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

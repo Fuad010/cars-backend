@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Notes.WebApi
-build_property.ProjectDir = C:\Users\dezhu\OneDrive\Рабочий стол\.net api\NotesBackend\Notes.Backend\Notes.WebApi\
+build_property.ProjectDir = C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Notes.Backend\Notes.WebApi\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
