@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\entitytypeconfigurations\\noteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\entitytypeconfigurations\\noteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\notes\\queries\\getnotelist\\notelistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\notes\\queries\\getnotelist\\notelistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,20 +87,8 @@
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\notes\\commands\\updatenote\\updatenotecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\interfaces\\inotesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\interfaces\\inotesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\entitytypeconfigurations\\noteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\entitytypeconfigurations\\noteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,11 +98,128 @@
       "DocumentGroups": [
         {
           "DockedHeight": 214,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Notes.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T20:07:38.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\DependencyInjection.cs",
+              "RelativeToolTip": "Notes.Persistance\\DependencyInjection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T15:54:16.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetNoteListQuery.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQuery.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQuery.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQuery.cs",
+              "RelativeToolTip": "Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:39:32.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NoteLookupDto.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\NoteLookupDto.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Notes\\Queries\\GetNoteList\\NoteLookupDto.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\NoteLookupDto.cs",
+              "RelativeToolTip": "Notes.Application\\Notes\\Queries\\GetNoteList\\NoteLookupDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:08:53.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\NotesDbContext.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\NotesDbContext.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\NotesDbContext.cs",
+              "RelativeToolTip": "Notes.Persistance\\NotesDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T10:43:39.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\DbInitializer.cs",
+              "RelativeToolTip": "Notes.Persistance\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T10:49:22.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "NoteConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\NoteConfiguration.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\EntityTypeConfigurations\\NoteConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\NoteConfiguration.cs",
+              "RelativeToolTip": "Notes.Persistance\\EntityTypeConfigurations\\NoteConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T13:00:35.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetNoteListQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQueryHandler.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQueryHandler.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQueryHandler.cs",
+              "RelativeToolTip": "Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQueryHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:40:29.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateNoteCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Commands\\CreateNote\\CreateNoteCommandHandler.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Notes\\Commands\\CreateNote\\CreateNoteCommandHandler.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Commands\\CreateNote\\CreateNoteCommandHandler.cs",
+              "RelativeToolTip": "Notes.Application\\Notes\\Commands\\CreateNote\\CreateNoteCommandHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T10:25:15.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "GetNoteDetailsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteDetails\\GetNoteDetailsQueryHandler.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Notes\\Queries\\GetNoteDetails\\GetNoteDetailsQueryHandler.cs",
@@ -108,58 +233,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CreateNoteCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Commands\\CreateNote\\CreateNoteCommandHandler.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Notes\\Commands\\CreateNote\\CreateNoteCommandHandler.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Commands\\CreateNote\\CreateNoteCommandHandler.cs",
-              "RelativeToolTip": "Notes.Application\\Notes\\Commands\\CreateNote\\CreateNoteCommandHandler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T10:25:15.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetNoteListQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQueryHandler.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQueryHandler.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQueryHandler.cs",
-              "RelativeToolTip": "Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQueryHandler.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:40:29.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetNoteListQuery.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQuery.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQuery.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQuery.cs",
-              "RelativeToolTip": "Notes.Application\\Notes\\Queries\\GetNoteList\\GetNoteListQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:39:32.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NoteLookupDto.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\NoteLookupDto.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Notes\\Queries\\GetNoteList\\NoteLookupDto.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\NoteLookupDto.cs",
-              "RelativeToolTip": "Notes.Application\\Notes\\Queries\\GetNoteList\\NoteLookupDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:08:53.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "NoteListVm.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteList\\NoteListVm.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Notes\\Queries\\GetNoteList\\NoteListVm.cs",
@@ -172,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "NoteDetailsVm.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteDetails\\NoteDetailsVm.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Notes\\Queries\\GetNoteDetails\\NoteDetailsVm.cs",
@@ -185,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "GetNoteDetailsQuery.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Queries\\GetNoteDetails\\GetNoteDetailsQuery.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Notes\\Queries\\GetNoteDetails\\GetNoteDetailsQuery.cs",
@@ -198,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "CreateNoteCommand.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Commands\\CreateNote\\CreateNoteCommand.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Notes\\Commands\\CreateNote\\CreateNoteCommand.cs",
@@ -211,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "IMapWith.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Common\\Mappings\\IMapWith.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Common\\Mappings\\IMapWith.cs",
@@ -224,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "AssemblyMappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Common\\Mappings\\AssemblyMappingProfile.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Common\\Mappings\\AssemblyMappingProfile.cs",
@@ -237,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "DeleteNoteCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Commands\\DeleteNote\\DeleteNoteCommandHandler.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Notes\\Commands\\DeleteNote\\DeleteNoteCommandHandler.cs",
@@ -250,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "DeleteNoteCommand.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Commands\\DeleteNote\\DeleteNoteCommand.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Notes\\Commands\\DeleteNote\\DeleteNoteCommand.cs",
@@ -263,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Common\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Common\\Exceptions\\NotFoundException.cs",
@@ -276,20 +349,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "UpdateNoteCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Commands\\UpdateNote\\UpdateNoteCommandHandler.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Notes\\Commands\\UpdateNote\\UpdateNoteCommandHandler.cs",
               "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Commands\\UpdateNote\\UpdateNoteCommandHandler.cs",
               "RelativeToolTip": "Notes.Application\\Notes\\Commands\\UpdateNote\\UpdateNoteCommandHandler.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAMwB4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAIAywB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T11:23:43.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "UpdateNoteCommand.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Notes\\Commands\\UpdateNote\\UpdateNoteCommand.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Notes\\Commands\\UpdateNote\\UpdateNoteCommand.cs",
@@ -302,33 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Notes.Persistance\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\DbInitializer.cs",
-              "RelativeToolTip": "Notes.Persistance\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T10:49:22.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NotesDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\NotesDbContext.cs",
-              "RelativeDocumentMoniker": "Notes.Persistance\\NotesDbContext.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\NotesDbContext.cs",
-              "RelativeToolTip": "Notes.Persistance\\NotesDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T10:43:39.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "INotesDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Interfaces\\INotesDbContext.cs",
               "RelativeDocumentMoniker": "Notes.Application\\Interfaces\\INotesDbContext.cs",
@@ -337,19 +384,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T10:36:10.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "NoteConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\NoteConfiguration.cs",
-              "RelativeDocumentMoniker": "Notes.Persistance\\EntityTypeConfigurations\\NoteConfiguration.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\NoteConfiguration.cs",
-              "RelativeToolTip": "Notes.Persistance\\EntityTypeConfigurations\\NoteConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T13:00:35.729Z",
               "EditorCaption": ""
             }
           ]
