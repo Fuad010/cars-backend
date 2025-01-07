@@ -1,12 +1,11 @@
 ﻿using MediatR;
-using Notes.Application.Notes.Queries.GetNoteDetails;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Notes.Application.Notes.Queries.GetNoteDetail
+namespace Notes.Application.Notes.Queries.GetNoteDetails
 {
     public class GetNoteDetailsQuery : IRequest<NoteDetailsVm>
     {

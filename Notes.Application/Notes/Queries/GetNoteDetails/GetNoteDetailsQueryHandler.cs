@@ -3,7 +3,6 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Notes.Application.Common.Exceptions;
 using Notes.Application.Interfaces;
-using Notes.Application.Notes.Queries.GetNoteDetail;
 using Notes.Domain;
 using System;
 using System.Collections.Generic;
