@@ -15,8 +15,8 @@ namespace Notes.Application.Notes.Commands.UpdateNote
     public class UpdateNoteCommandHandler
         : IRequestHandler<UpdateNoteCommand>
     {
-        private readonly INotesDbContext _dbContext;
-        public UpdateNoteCommandHandler(INotesDbContext dbContext) =>
+        private readonly IAppDbContext _dbContext;
+        public UpdateNoteCommandHandler(IAppDbContext dbContext) =>
             _dbContext = dbContext;
         public async Task<Unit> Handle(UpdateNoteCommand request,
             CancellationToken cancellationToken)

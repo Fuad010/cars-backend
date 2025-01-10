@@ -17,4 +17,11 @@
     <ProjectReference Include="..\Notes.Domain\Notes.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Cars\Commands\DeleteCar\" />
+    <Folder Include="Cars\Commands\UpdateCar\" />
+    <Folder Include="Cars\Queries\GetCarDetails\" />
+    <Folder Include="Cars\Queries\GetCarList\" />
+  </ItemGroup>
+
 </Project>

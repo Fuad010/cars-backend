@@ -17,11 +17,11 @@ namespace Notes.Persistance
             IConfiguration configuration)
         {
             var connectionString = configuration["DbConnection"];
-            services.AddDbContext<NotesDbContext>(options =>
+            services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlite(connectionString);
             });
-            services.AddScoped<INotesDbContext>(provider => provider.GetService<NotesDbContext>());
+            services.AddScoped<IAppDbContext>(provider => provider.GetService<AppDbContext>());
             return services;
         }
     }

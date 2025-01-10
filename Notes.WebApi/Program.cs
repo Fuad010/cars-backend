@@ -22,7 +22,7 @@ namespace Notes.WebApi
                 var serviceProvider = scope.ServiceProvider;
                 try
                 {
-                    var context = serviceProvider.GetRequiredService<NotesDbContext>();
+                    var context = serviceProvider.GetRequiredService<AppDbContext>();
                     DbInitializer.Initialize(context);
                 }
                 catch (Exception exception) 

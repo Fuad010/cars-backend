@@ -15,10 +15,10 @@ namespace Notes.Application.Notes.Queries.GetNoteList
     public class GetNoteListQueryHandler
         : IRequestHandler<GetNoteListQuery, NoteListVm>
     {
-        private readonly INotesDbContext _dbContext;
+        private readonly IAppDbContext _dbContext;
         private readonly IMapper _mapper;
 
-        public GetNoteListQueryHandler(INotesDbContext dbContext, IMapper mapper)
+        public GetNoteListQueryHandler(IAppDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
             _mapper = mapper;

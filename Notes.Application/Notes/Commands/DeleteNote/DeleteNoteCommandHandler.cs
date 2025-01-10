@@ -14,8 +14,8 @@ namespace Notes.Application.Notes.Commands.DeleteNote
     public class DeleteNoteCommandHandler 
         : IRequestHandler<DeleteNoteCommand>
     {
-        private readonly INotesDbContext _dbContext;
-        public DeleteNoteCommandHandler(INotesDbContext dbContext)=>
+        private readonly IAppDbContext _dbContext;
+        public DeleteNoteCommandHandler(IAppDbContext dbContext)=>
             _dbContext = dbContext;
 
         public async Task<Unit> Handle(DeleteNoteCommand request, 

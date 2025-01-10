@@ -13,6 +13,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using Notes.WebApi.Middleware;
+using System.IO;
 
 namespace Notes.WebApi
 {
@@ -29,7 +31,7 @@ namespace Notes.WebApi
             services.AddAutoMapper(config =>
             {
                 config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
-                config.AddProfile(new AssemblyMappingProfile(typeof(INotesDbContext).Assembly));
+                config.AddProfile(new AssemblyMappingProfile(typeof(IAppDbContext).Assembly));
             });
 
             services.AddApplication();
@@ -46,6 +48,12 @@ namespace Notes.WebApi
                 });
             });
 
+            services.AddSwaggerGen(config=>
+            {
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                config.IncludeXmlComments(xmlPath);
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -55,6 +63,13 @@ namespace Notes.WebApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseSwagger();
+            app.UseSwaggerUI(config =>
+            {
+                config.RoutePrefix = string.Empty;
+                config.SwaggerEndpoint("swagger/v1/swagger.json", "Notes API");
+            });
+            app.UseCustomExceptionHandler();
             app.UseRouting();
             app.UseHttpsRedirection();
             app.UseCors("AllowAll");

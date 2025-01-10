@@ -13,8 +13,8 @@ namespace Notes.Application.Notes.Commands.CreateNote
     public class CreateNoteCommandHandler
         :IRequestHandler<CreateNoteCommand, Guid>
     {
-        private readonly INotesDbContext _dbContext;
-        public CreateNoteCommandHandler(INotesDbContext dbContext) =>
+        private readonly IAppDbContext _dbContext;
+        public CreateNoteCommandHandler(IAppDbContext dbContext) =>
             _dbContext = dbContext;
 
         public async Task<Guid> Handle(CreateNoteCommand request, 

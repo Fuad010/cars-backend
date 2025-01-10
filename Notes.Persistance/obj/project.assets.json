@@ -1344,8 +1344,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.5",
-      "Notes.Application >= 1.0.0",
-      "Notes.Domain >= 1.0.0"
+      "Notes.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1383,9 +1382,6 @@
           "projectReferences": {
             "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Application\\Notes.Application.csproj": {
               "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Application\\Notes.Application.csproj"
-            },
-            "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj": {
-              "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj"
             }
           }
         }

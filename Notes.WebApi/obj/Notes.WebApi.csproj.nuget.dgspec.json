@@ -195,9 +195,6 @@
             "projectReferences": {
               "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Application\\Notes.Application.csproj": {
                 "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Application\\Notes.Application.csproj"
-              },
-              "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj": {
-                "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj"
               }
             }
           }
@@ -298,6 +295,16 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             }
           },
           "imports": [

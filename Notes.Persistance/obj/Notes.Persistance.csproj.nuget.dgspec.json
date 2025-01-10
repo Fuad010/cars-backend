@@ -195,9 +195,6 @@
             "projectReferences": {
               "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Application\\Notes.Application.csproj": {
                 "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Application\\Notes.Application.csproj"
-              },
-              "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj": {
-                "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj"
               }
             }
           }
