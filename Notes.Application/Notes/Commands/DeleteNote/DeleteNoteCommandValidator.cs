@@ -14,5 +14,5 @@ namespace Notes.Application.Notes.Commands.DeleteNote
             RuleFor(deleteNoteCommand =>  deleteNoteCommand.Id).NotEqual(Guid.Empty);
             //RuleFor(deleteNoteCommand =>  deleteNoteCommand.UserId).NotEqual(Guid.Empty);
         }
-    }
+    }   
 }
