@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,14 +21,15 @@ namespace Notes.Persistance
         public DbSet<CarColor> CarColors { get; set; }
         public DbSet<Body> Bodies { get; set; }
         public DbSet<Box> Boxes { get; set; }
-        public DbSet<SteeringWheel> SteeringWheeles { get; set; }
+        public DbSet<SteeringWheel> SteeringWheels { get; set; }
         public DbSet<CarImage> CarImages { get; set; }
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            base.OnModelCreating(builder);
             builder.ApplyConfiguration(new CarConfiguration());
             builder.ApplyConfiguration(new NoteConfiguration());
-            base.OnModelCreating(builder);
         }
     }
 }
+

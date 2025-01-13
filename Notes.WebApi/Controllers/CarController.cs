@@ -45,19 +45,32 @@ namespace Notes.WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Guid>> Create([FromBody] CreateCarDto createCarDto)
+        public async Task<ActionResult<Guid>> Create([FromForm] CreateCarDto createCarDto)
         {
             var command = _mapper.Map<CreateCarCommand>(createCarDto);
             command.UserId = UserId;
+
+            if (createCarDto.Images != null && createCarDto.Images.Count > 0)
+            {
+                command.Images = createCarDto.Images;
+            }
+
             var carId = await Mediator.Send(command);
             return Ok(carId);
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update([FromBody] UpdateCarDto updateCarDto)
+        public async Task<IActionResult> Update(Guid id,[FromForm] UpdateCarDto updateCarDto)
         {
             var command = _mapper.Map<UpdateCarCommand>(updateCarDto);
             command.UserId = UserId;
+            command.Id = id;
+
+            if (updateCarDto.Images != null && updateCarDto.Images.Count > 0)
+            {
+                command.Images = updateCarDto.Images;
+            }
+
             await Mediator.Send(command);
             return NoContent();
         }

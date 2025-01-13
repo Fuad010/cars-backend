@@ -1,4 +1,5 @@
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Notes.Domain.Car;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,7 @@ namespace Notes.Application.Cars.Commands.UpdateCar
         public Guid SteeringWheelId { get; set; }
         public Guid BodyId { get; set; }
 
-        public ICollection<CarImage> Images { get; set; }
+        public List<IFormFile> Images { get; set; }
 
         public string Engine { get; set; }
         public int Mileage { get; set; }

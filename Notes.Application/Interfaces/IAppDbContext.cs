@@ -17,7 +17,7 @@ namespace Notes.Application.Interfaces
         DbSet<Brand> Brands { get; set; }           
         DbSet<Box> Boxes { get; set; }           
         DbSet<CarColor> CarColors { get; set; }      
-        DbSet<SteeringWheel> SteeringWheeles { get; set; }
+        DbSet<SteeringWheel> SteeringWheels { get; set; }
         DbSet<Body> Bodies { get; set; }
         DbSet<CarImage> CarImages { get; set; }       
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);

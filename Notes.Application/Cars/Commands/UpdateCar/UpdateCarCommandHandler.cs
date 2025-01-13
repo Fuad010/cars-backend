@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Notes.Application.Common.Exceptions;
+using Notes.Application.Common.Interfaces;
 using Notes.Application.Interfaces;
 using Notes.Domain.Car;
 using System;
@@ -16,8 +17,13 @@ namespace Notes.Application.Cars.Commands.UpdateCar
         : IRequestHandler<UpdateCarCommand>
     {
         private readonly IAppDbContext _dbContext;
-        public UpdateCarCommandHandler(IAppDbContext dbContext) =>
+        private readonly IFileService _fileService;
+        public UpdateCarCommandHandler(IAppDbContext dbContext, IFileService fileService) 
+        {
             _dbContext = dbContext;
+            _fileService = fileService;
+        
+        }
         public async Task<Unit> Handle(UpdateCarCommand request,
             CancellationToken cancellationToken)
         {
@@ -39,9 +45,17 @@ namespace Notes.Application.Cars.Commands.UpdateCar
             entity.Year = request.Year;
             entity.Price = request.Price;
 
-            if (request.Images != null)
+            if (request.Images != null && request.Images.Any())
             {
-                entity.Images = request.Images;
+                var oldImages = await _dbContext.CarImages
+                    .Where(img=>img.CarId == entity.Id)
+                    .ToListAsync(cancellationToken);
+
+                foreach(var oldImage in oldImages)
+                {
+                    await _fileService.DeleteFileAsync(oldImage.ImageUrl);
+                    _dbContext.CarImages.Remove(oldImage);
+                }
             }
 
             await _dbContext.SaveChangesAsync(cancellationToken);

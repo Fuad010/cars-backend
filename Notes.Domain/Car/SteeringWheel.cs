@@ -9,6 +9,7 @@ namespace Notes.Domain.Car
     public class SteeringWheel
     {
         public Guid Id { get; set; }
-        public string Name { get; set; }
+        public string SteeringWheelType { get; set; }
+        public ICollection<Car> Cars { get; set; }
     }
 }

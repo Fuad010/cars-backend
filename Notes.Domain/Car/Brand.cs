@@ -10,5 +10,6 @@ namespace Notes.Domain.Car
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
+        public ICollection<Car> Cars { get; set; }
     }
 }

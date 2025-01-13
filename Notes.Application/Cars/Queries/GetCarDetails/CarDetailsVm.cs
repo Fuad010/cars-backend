@@ -48,19 +48,19 @@ namespace Notes.Application.Cars.Queries.GetCarDetails
                 .ForMember(carVm => carVm.ColorId,
                     opt => opt.MapFrom(car => car.ColorId))
                 .ForMember(carVm => carVm.ColorName,
-                    opt => opt.MapFrom(car => car.CarColor.Name))
+                    opt => opt.MapFrom(car => car.CarColor.ColorName))
                 .ForMember(carVm => carVm.BoxId,
                     opt => opt.MapFrom(car => car.BoxId))
                 .ForMember(carVm => carVm.BoxName,
-                    opt => opt.MapFrom(car => car.Box.Name))
+                    opt => opt.MapFrom(car => car.Box.BoxType))
                 .ForMember(carVm => carVm.SteeringWheelId,
                     opt => opt.MapFrom(car => car.SteeringWheelId))
                 .ForMember(carVm => carVm.SteeringWheelName,
-                    opt => opt.MapFrom(car => car.SteeringWheel.Name))
+                    opt => opt.MapFrom(car => car.SteeringWheel.SteeringWheelType))
                 .ForMember(carVm => carVm.BodyId,
                     opt => opt.MapFrom(car => car.BodyId))
                 .ForMember(carVm => carVm.BodyName,
-                    opt => opt.MapFrom(car => car.Body.Name))
+                    opt => opt.MapFrom(car => car.Body.BodyType))
                 .ForMember(carVm => carVm.Engine,
                     opt => opt.MapFrom(car => car.Engine))
                 .ForMember(carVm => carVm.Mileage,

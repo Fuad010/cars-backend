@@ -16,3 +16,6 @@ C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Notes.Backend\Notes.Per
 C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Notes.Backend\Notes.Persistance\obj\Debug\net5.0\refint\Notes.Persistance.dll
 C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Notes.Backend\Notes.Persistance\obj\Debug\net5.0\Notes.Persistance.pdb
 C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Notes.Backend\Notes.Persistance\obj\Debug\net5.0\ref\Notes.Persistance.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Notes.Backend\Notes.Persistance\bin\Debug\net5.0\Notes.Persistance.runtimeconfig.json
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Notes.Backend\Notes.Persistance\bin\Debug\net5.0\Notes.Persistance.runtimeconfig.dev.json
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Notes.Backend\Notes.Persistance\obj\Debug\net5.0\Notes.Persistance.genruntimeconfig.cache

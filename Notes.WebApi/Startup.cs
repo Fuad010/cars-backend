@@ -15,6 +15,8 @@ using System.Reflection;
 using System.Threading.Tasks;
 using Notes.WebApi.Middleware;
 using System.IO;
+using Notes.Application.Common.Interfaces;
+using Notes.Persistance.Services;
 
 namespace Notes.WebApi
 {
@@ -36,7 +38,9 @@ namespace Notes.WebApi
 
             services.AddApplication();
             services.AddPersistance(Configuration);
-            services.AddControllers(); 
+            services.AddControllers();
+            services.AddScoped<IFileService, FileService>();
+            services.AddScoped<IDatabaseInitializer, DatabaseInitializer>();
 
             services.AddCors(options =>
             {
