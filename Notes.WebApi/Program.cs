@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Notes.Application.Interfaces;
 using Notes.Persistance;
 using System;
 using System.Collections.Generic;
@@ -23,11 +24,14 @@ namespace Notes.WebApi
                 try
                 {
                     var context = serviceProvider.GetRequiredService<AppDbContext>();
-                    DbInitializer.Initialize(context);
+
+                    var dbInitializer = serviceProvider.GetRequiredService<IDatabaseInitializer>();
+                    dbInitializer.Initialize().Wait(); 
                 }
-                catch (Exception exception) 
+                catch (Exception exception)
                 {
-                    
+                    var logger = serviceProvider.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(exception, "An error occurred during database initialization.");
                 }
             }
 

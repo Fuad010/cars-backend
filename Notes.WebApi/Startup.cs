@@ -78,6 +78,11 @@ namespace Notes.WebApi
             app.UseHttpsRedirection();
             app.UseCors("AllowAll");
 
+            using (var scope = app.ApplicationServices.CreateScope())
+            {
+                var dbInitializer = scope.ServiceProvider.GetRequiredService<IDatabaseInitializer>();
+                dbInitializer.Initialize().Wait();
+            }
 
             app.UseEndpoints(endpoints =>
             {

@@ -30,14 +30,14 @@ namespace Notes.Application.Cars.Commands.UpdateCar
             var entity = await _dbContext.Cars.FirstOrDefaultAsync(car =>
             car.Id == request.Id, cancellationToken);
 
-            if (entity == null || entity.UserId != request.UserId)
-            {
-                throw new NotFoundException(nameof(Car), request.Id);
-            }
+            //if (entity == null || entity.UserId != request.UserId)
+            //{
+            //    throw new NotFoundException(nameof(Car), request.Id);
+            //}
 
             entity.Name = request.Name;
             entity.BrandId = request.BrandId;
-            entity.ColorId = request.ColorId;
+            entity.CarColorId = request.ColorId;
             entity.SteeringWheelId = request.SteeringWheelId;
             entity.BodyId = request.BodyId;
             entity.Engine = request.Engine;

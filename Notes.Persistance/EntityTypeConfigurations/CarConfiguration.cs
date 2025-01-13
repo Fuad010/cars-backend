@@ -36,24 +36,24 @@ namespace Notes.Persistance.EntityTypeConfigurations
             builder.Property(c => c.EditDate)
                 .IsRequired(false);
 
-            builder.HasOne(c => c.Brand)
+            builder.HasOne<Brand>()
+            .WithMany()
+            .HasForeignKey(c => c.BrandId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasOne<CarColor>()
+            .WithMany()
+            .HasForeignKey(c => c.CarColorId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasOne<Box>()
                 .WithMany()
-                .HasForeignKey(c => c.Brand)
+                .HasForeignKey(c => c.BoxId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            builder.HasOne(c => c.CarColor)
+            builder.HasOne<SteeringWheel>()
                 .WithMany()
-                .HasForeignKey(c => c.Brand)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            builder.HasOne(c => c.Box)
-                .WithMany()
-                .HasForeignKey(c => c.Box)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            builder.HasOne(c => c.SteeringWheel)
-                .WithMany()
-                .HasForeignKey(c => c.Brand)
+                .HasForeignKey(c => c.SteeringWheelId)
                 .OnDelete(DeleteBehavior.Restrict);
 
         }

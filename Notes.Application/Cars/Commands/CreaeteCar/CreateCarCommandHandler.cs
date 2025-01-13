@@ -32,7 +32,7 @@ namespace Notes.Application.Cars.Commands.CreaeteCar
                 UserId = request.UserId,
                 Name = request.Name,
                 BrandId = request.BrandId,
-                ColorId = request.ColorId,
+                CarColorId = request.ColorId,
                 BoxId = request.BoxId,
                 SteeringWheelId = request.SteeringWheelId,
                 BodyId = request.BodyId,

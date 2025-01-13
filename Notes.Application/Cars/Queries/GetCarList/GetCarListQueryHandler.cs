@@ -29,7 +29,7 @@ namespace Notes.Application.Cars.Queries.GetCarList
             CancellationToken cancellationToken)
         {
             var carsQuery = await _dbContext.Cars
-                .Where(car => car.UserId == request.UserId)
+                //.Where(car => car.UserId == request.UserId)
                 .ProjectTo<CarLookupDto>(_mapper.ConfigurationProvider)
                 .ToListAsync(cancellationToken);
 

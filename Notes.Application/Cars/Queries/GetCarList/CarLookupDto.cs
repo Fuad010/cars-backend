@@ -13,11 +13,11 @@ namespace Notes.Application.Cars.Queries.GetCarList
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
-        public string Brand { get; set; }
-        public string Color { get; set; }
-        public string Box { get; set; }
-        public string SteeringWheel { get; set; }
-        public string Body { get; set; }
+        public Guid BrandId { get; set; }
+        public Guid CarColorId { get; set; }
+        public Guid BoxId { get; set; }
+        public Guid SteeringWheelId { get; set; }
+        public Guid BodyId { get; set; }
         public string Engine { get; set; }
         public int Mileage { get; set; }
         public int Year { get; set; }
@@ -28,11 +28,11 @@ namespace Notes.Application.Cars.Queries.GetCarList
             profile.CreateMap<Car, CarLookupDto>()
                 .ForMember(dto => dto.Id, opt => opt.MapFrom(car => car.Id))
                 .ForMember(dto => dto.Name, opt => opt.MapFrom(car => car.Name))
-                .ForMember(dto => dto.Brand, opt => opt.MapFrom(car => car.Brand.Name))
-                .ForMember(dto => dto.Color, opt => opt.MapFrom(car => car.CarColor.ColorName))
-                .ForMember(dto => dto.Box, opt => opt.MapFrom(car => car.Box.BoxType))
-                .ForMember(dto => dto.SteeringWheel, opt => opt.MapFrom(car => car.SteeringWheel.SteeringWheelType))
-                .ForMember(dto => dto.Body, opt => opt.MapFrom(car => car.Body.BodyType))
+                .ForMember(dto => dto.BrandId, opt => opt.MapFrom(car => car.BrandId))
+                .ForMember(dto => dto.CarColorId, opt => opt.MapFrom(car => car.CarColorId))
+                .ForMember(dto => dto.BoxId, opt => opt.MapFrom(car => car.BoxId))
+                .ForMember(dto => dto.SteeringWheelId, opt => opt.MapFrom(car => car.SteeringWheelId))
+                .ForMember(dto => dto.BodyId, opt => opt.MapFrom(car => car.BodyId))
                 .ForMember(dto => dto.Engine, opt => opt.MapFrom(car => car.Engine))
                 .ForMember(dto => dto.Mileage, opt => opt.MapFrom(car => car.Mileage))
                 .ForMember(dto => dto.Year, opt => opt.MapFrom(car => car.Year))

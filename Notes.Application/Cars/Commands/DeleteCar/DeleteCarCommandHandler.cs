@@ -30,10 +30,10 @@ namespace Notes.Application.Cars.Commands.DeleteCar
             var entity = await _dbContext.Cars
                 .FindAsync(new object[] { request.Id }, cancellationToken);
 
-            if (entity == null || entity.UserId != request.UserId)
-            {
-                throw new NotFoundException(nameof(Car), request.Id);
-            }
+            //if (entity == null || entity.UserId != request.UserId)
+            //{
+            //    throw new NotFoundException(nameof(Car), request.Id);
+            //}
 
             var images = await _dbContext.CarImages
                 .Where(image => image.CarId == request.Id)
