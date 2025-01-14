@@ -44,6 +44,7 @@ namespace Notes.Application.Cars.Commands.UpdateCar
             entity.Mileage = request.Mileage;
             entity.Year = request.Year;
             entity.Price = request.Price;
+            entity.EditDate = DateTime.Now;
 
             if (request.Images != null && request.Images.Any())
             {

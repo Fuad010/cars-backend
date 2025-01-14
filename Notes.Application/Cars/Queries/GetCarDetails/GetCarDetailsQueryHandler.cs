@@ -28,42 +28,16 @@ namespace Notes.Application.Cars.Queries.GetCarDetails
         public async Task<CarDetailsVm> Handle(GetCarDetailsQuery request, CancellationToken cancellationToken)
         {
             var entity = await _dbContext.Cars
+                .Include(car => car.Images)
+                .AsNoTracking() // Оптимизация для чтения данных
                 .FirstOrDefaultAsync(car => car.Id == request.Id, cancellationToken);
 
-            //if (entity == null || entity.UserId != request.UserId)
-            //{
-            //    throw new NotFoundException(nameof(Car), request.Id);
-            //}
-
-            var brand = await _dbContext.Brands
-                .FirstOrDefaultAsync(b => b.Id == entity.BrandId, cancellationToken);
-
-            var carColor = await _dbContext.CarColors
-                .FirstOrDefaultAsync(c => c.Id == entity.CarColorId, cancellationToken);
-
-            var box = await _dbContext.Boxes
-                .FirstOrDefaultAsync(b => b.Id == entity.BoxId, cancellationToken);
-
-            var steeringWheel = await _dbContext.SteeringWheels
-                .FirstOrDefaultAsync(s => s.Id == entity.SteeringWheelId, cancellationToken);
-
-            var body = await _dbContext.Bodies
-                .FirstOrDefaultAsync(b => b.Id == entity.BodyId, cancellationToken);
-
-            return _mapper.Map<CarDetailsVm>(new CarDetailsVm
+            if (entity == null)
             {
-                Id = entity.Id,
-                Name = entity.Name,
-                BrandName = brand?.Name, 
-                ColorName = carColor?.ColorName,
-                BoxName = box?.BoxType,
-                SteeringWheelName = steeringWheel?.SteeringWheelType,
-                BodyName = body?.BodyType,
-                Engine = entity.Engine,
-                Mileage = entity.Mileage,
-                Year = entity.Year,
-                Price = entity.Price
-            });
+                throw new NotFoundException(nameof(Car), request.Id);
+            }
+
+            return _mapper.Map<CarDetailsVm>(entity);
         }
     }
 }

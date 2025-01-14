@@ -28,7 +28,13 @@ namespace Notes.Persistance
         {
             base.OnModelCreating(builder);
             builder.ApplyConfiguration(new CarConfiguration());
+            builder.ApplyConfiguration(new CarImageConfiguration());
             builder.ApplyConfiguration(new NoteConfiguration());
+            builder.ApplyConfiguration(new BrandConfiguration());
+            builder.ApplyConfiguration(new CarColorConfiguration());
+            builder.ApplyConfiguration(new BodyConfiguration());
+            builder.ApplyConfiguration(new BoxConfiguration());
+            builder.ApplyConfiguration(new SteeringWheelConfiguration());
         }
     }
 }

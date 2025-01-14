@@ -9,8 +9,8 @@ using Notes.Persistance;
 namespace Notes.Persistance.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250113191018_InitialSeedData")]
-    partial class InitialSeedData
+    [Migration("20250114172253_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -25,6 +25,8 @@ namespace Notes.Persistance.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("BodyType")
+                        .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -39,6 +41,8 @@ namespace Notes.Persistance.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("BoxType")
+                        .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -53,6 +57,8 @@ namespace Notes.Persistance.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -69,6 +75,9 @@ namespace Notes.Persistance.Migrations
                     b.Property<Guid>("BodyId")
                         .HasColumnType("TEXT");
 
+                    b.Property<Guid?>("BodyId1")
+                        .HasColumnType("TEXT");
+
                     b.Property<Guid>("BoxId")
                         .HasColumnType("TEXT");
 
@@ -76,9 +85,6 @@ namespace Notes.Persistance.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<Guid>("BrandId")
-                        .HasColumnType("TEXT");
-
-                    b.Property<Guid?>("BrandId1")
                         .HasColumnType("TEXT");
 
                     b.Property<Guid>("CarColorId")
@@ -125,13 +131,13 @@ namespace Notes.Persistance.Migrations
 
                     b.HasIndex("BodyId");
 
+                    b.HasIndex("BodyId1");
+
                     b.HasIndex("BoxId");
 
                     b.HasIndex("BoxId1");
 
                     b.HasIndex("BrandId");
-
-                    b.HasIndex("BrandId1");
 
                     b.HasIndex("CarColorId");
 
@@ -151,6 +157,8 @@ namespace Notes.Persistance.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("ColorName")
+                        .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -168,6 +176,8 @@ namespace Notes.Persistance.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasMaxLength(2048)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -184,6 +194,8 @@ namespace Notes.Persistance.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("SteeringWheelType")
+                        .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -223,10 +235,14 @@ namespace Notes.Persistance.Migrations
             modelBuilder.Entity("Notes.Domain.Car.Car", b =>
                 {
                     b.HasOne("Notes.Domain.Car.Body", null)
-                        .WithMany("Cars")
+                        .WithMany()
                         .HasForeignKey("BodyId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.HasOne("Notes.Domain.Car.Body", null)
+                        .WithMany("Cars")
+                        .HasForeignKey("BodyId1");
 
                     b.HasOne("Notes.Domain.Car.Box", null)
                         .WithMany()
@@ -239,14 +255,10 @@ namespace Notes.Persistance.Migrations
                         .HasForeignKey("BoxId1");
 
                     b.HasOne("Notes.Domain.Car.Brand", null)
-                        .WithMany()
+                        .WithMany("Cars")
                         .HasForeignKey("BrandId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
-
-                    b.HasOne("Notes.Domain.Car.Brand", null)
-                        .WithMany("Cars")
-                        .HasForeignKey("BrandId1");
 
                     b.HasOne("Notes.Domain.Car.CarColor", null)
                         .WithMany()

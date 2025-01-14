@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Notes.Persistance.Migrations
 {
-    public partial class SeedCarRelatedTables : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,7 +12,7 @@ namespace Notes.Persistance.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "TEXT", nullable: false),
-                    BodyType = table.Column<string>(type: "TEXT", nullable: true)
+                    BodyType = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -24,7 +24,7 @@ namespace Notes.Persistance.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "TEXT", nullable: false),
-                    BoxType = table.Column<string>(type: "TEXT", nullable: true)
+                    BoxType = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -36,7 +36,7 @@ namespace Notes.Persistance.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "TEXT", nullable: false),
-                    Name = table.Column<string>(type: "TEXT", nullable: true)
+                    Name = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -48,7 +48,7 @@ namespace Notes.Persistance.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "TEXT", nullable: false),
-                    ColorName = table.Column<string>(type: "TEXT", nullable: true)
+                    ColorName = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -76,7 +76,7 @@ namespace Notes.Persistance.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "TEXT", nullable: false),
-                    SteeringWheelType = table.Column<string>(type: "TEXT", nullable: true)
+                    SteeringWheelType = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -101,8 +101,8 @@ namespace Notes.Persistance.Migrations
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     CreationDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     EditDate = table.Column<DateTime>(type: "TEXT", nullable: true),
+                    BodyId1 = table.Column<Guid>(type: "TEXT", nullable: true),
                     BoxId1 = table.Column<Guid>(type: "TEXT", nullable: true),
-                    BrandId1 = table.Column<Guid>(type: "TEXT", nullable: true),
                     CarColorId1 = table.Column<Guid>(type: "TEXT", nullable: true),
                     SteeringWheelId1 = table.Column<Guid>(type: "TEXT", nullable: true)
                 },
@@ -114,7 +114,13 @@ namespace Notes.Persistance.Migrations
                         column: x => x.BodyId,
                         principalTable: "Bodies",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Cars_Bodies_BodyId1",
+                        column: x => x.BodyId1,
+                        principalTable: "Bodies",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Cars_Boxes_BoxId",
                         column: x => x.BoxId,
@@ -130,12 +136,6 @@ namespace Notes.Persistance.Migrations
                     table.ForeignKey(
                         name: "FK_Cars_Brands_BrandId",
                         column: x => x.BrandId,
-                        principalTable: "Brands",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Cars_Brands_BrandId1",
-                        column: x => x.BrandId1,
                         principalTable: "Brands",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -171,7 +171,7 @@ namespace Notes.Persistance.Migrations
                 {
                     Id = table.Column<Guid>(type: "TEXT", nullable: false),
                     CarId = table.Column<Guid>(type: "TEXT", nullable: false),
-                    ImageUrl = table.Column<string>(type: "TEXT", nullable: true)
+                    ImageUrl = table.Column<string>(type: "TEXT", maxLength: 2048, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -195,6 +195,11 @@ namespace Notes.Persistance.Migrations
                 column: "BodyId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Cars_BodyId1",
+                table: "Cars",
+                column: "BodyId1");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Cars_BoxId",
                 table: "Cars",
                 column: "BoxId");
@@ -208,11 +213,6 @@ namespace Notes.Persistance.Migrations
                 name: "IX_Cars_BrandId",
                 table: "Cars",
                 column: "BrandId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Cars_BrandId1",
-                table: "Cars",
-                column: "BrandId1");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Cars_CarColorId",

@@ -22,7 +22,9 @@ namespace Notes.Application.Cars.Queries.GetCarList
         public int Mileage { get; set; }
         public int Year { get; set; }
         public decimal Price { get; set; }
-
+        public ICollection<string> Images { get; set; }
+        public DateTime CreationDate { get; set; }
+        public DateTime? EditDate { get; set; }
         public void Mapping(Profile profile)
         {
             profile.CreateMap<Car, CarLookupDto>()
@@ -36,7 +38,10 @@ namespace Notes.Application.Cars.Queries.GetCarList
                 .ForMember(dto => dto.Engine, opt => opt.MapFrom(car => car.Engine))
                 .ForMember(dto => dto.Mileage, opt => opt.MapFrom(car => car.Mileage))
                 .ForMember(dto => dto.Year, opt => opt.MapFrom(car => car.Year))
-                .ForMember(dto => dto.Price, opt => opt.MapFrom(car => car.Price));
+                .ForMember(dto => dto.Price, opt => opt.MapFrom(car => car.Price))
+                .ForMember(dto => dto.Images, opt => opt.MapFrom(car => car.Images.Select(img => img.ImageUrl)))
+                .ForMember(dto => dto.CreationDate, opt => opt.MapFrom(car => car.CreationDate))
+                .ForMember(dto => dto.EditDate, opt => opt.MapFrom(car => car.EditDate));
         }
     }
 }

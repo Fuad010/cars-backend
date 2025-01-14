@@ -59,7 +59,7 @@ namespace Notes.WebApi.Controllers
             return Ok(carId);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> Update(Guid id,[FromForm] UpdateCarDto updateCarDto)
         {
             var command = _mapper.Map<UpdateCarCommand>(updateCarDto);

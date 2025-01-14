@@ -3,68 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\commands\\updatecar\\updatecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\commands\\updatecar\\updatecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\commands\\deletecar\\deletecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\commands\\deletecar\\deletecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\commands\\creaetecar\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\commands\\creaetecar\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\queries\\getcardetails\\getcardetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\queries\\getcardetails\\getcardetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\queries\\getcarlist\\getcarlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\queries\\getcarlist\\getcarlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\queries\\getcarlist\\carlookupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\queries\\getcarlist\\carlookupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\commands\\creaetecar\\createcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\commands\\creaetecar\\createcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Notes.WebApi\\Notes.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.webapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Notes.WebApi\\Notes.WebApi.csproj|solutionrelative:notes.webapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Notes.WebApi\\Notes.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Notes.WebApi\\Notes.WebApi.csproj|solutionrelative:notes.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Notes.WebApi\\Notes.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Notes.WebApi\\Notes.WebApi.csproj|solutionrelative:notes.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\entitytypeconfigurations\\steeringwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\entitytypeconfigurations\\steeringwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\entitytypeconfigurations\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\entitytypeconfigurations\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\interfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\interfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\interfaces\\idatabaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\interfaces\\idatabaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Notes.WebApi\\Notes.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Notes.WebApi\\Notes.WebApi.csproj|solutionrelative:notes.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\common\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\common\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\entitytypeconfigurations\\boxconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\entitytypeconfigurations\\boxconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\queries\\getcardetails\\cardetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\queries\\getcardetails\\cardetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\entitytypeconfigurations\\bodyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\entitytypeconfigurations\\bodyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\entitytypeconfigurations\\carcolorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\entitytypeconfigurations\\carcolorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\entitytypeconfigurations\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\entitytypeconfigurations\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\entitytypeconfigurations\\carimageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\entitytypeconfigurations\\carimageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.domain\\car\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,8 +63,20 @@
       "RelativeMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|solutionrelative:notes.domain\\car\\carcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.persistance\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Notes.Persistance\\Notes.Persistance.csproj|solutionrelative:notes.persistance\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\interfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\interfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\interfaces\\idatabaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\interfaces\\idatabaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Notes.WebApi\\Notes.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Notes.WebApi\\Notes.WebApi.csproj|solutionrelative:notes.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.domain\\car\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,28 +87,55 @@
       "RelativeMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|solutionrelative:notes.domain\\car\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.domain\\car\\steeringwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|solutionrelative:notes.domain\\car\\steeringwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\common\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\common\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.domain\\car\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|solutionrelative:notes.domain\\car\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\queries\\getcardetails\\cardetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\queries\\getcardetails\\cardetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\queries\\getcarlist\\carlookupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\queries\\getcarlist\\carlookupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\queries\\getcardetails\\getcardetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\queries\\getcardetails\\getcardetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\queries\\getcarlist\\getcarlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\queries\\getcarlist\\getcarlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\commands\\updatecar\\updatecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\commands\\updatecar\\updatecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\commands\\updatecar\\updatecarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\commands\\updatecar\\updatecarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\commands\\creaetecar\\createcarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\commands\\creaetecar\\createcarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.404\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\commands\\updatecar\\updatecarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\commands\\updatecar\\updatecarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\commands\\creaetecar\\createcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\commands\\creaetecar\\createcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\commands\\deletecar\\deletecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\commands\\deletecar\\deletecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.application\\cars\\commands\\updatecar\\updatecarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Notes.Application\\Notes.Application.csproj|solutionrelative:notes.application\\cars\\commands\\updatecar\\updatecarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.domain\\car\\steeringwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|solutionrelative:notes.domain\\car\\steeringwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\notes.backend\\notes.domain\\car\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Notes.Domain\\Notes.Domain.csproj|solutionrelative:notes.domain\\car\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -121,233 +148,194 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetCarListQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
-              "RelativeToolTip": "Notes.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T19:29:49.511Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CarController.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Controllers\\CarController.cs",
-              "RelativeDocumentMoniker": "Notes.WebApi\\Controllers\\CarController.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Controllers\\CarController.cs",
-              "RelativeToolTip": "Notes.WebApi\\Controllers\\CarController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T19:08:37.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetCarDetailsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
-              "RelativeToolTip": "Notes.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T17:23:37.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateCarCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
-              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAqwDIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T12:37:21.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeleteCarCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\DeleteCar\\DeleteCarCommandHandler.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\DeleteCar\\DeleteCarCommandHandler.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\DeleteCar\\DeleteCarCommandHandler.cs",
-              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\DeleteCar\\DeleteCarCommandHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCAAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T12:54:09.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdateCarCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandHandler.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandHandler.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandHandler.cs",
-              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandHandler.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAtwCMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:30:51.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Startup.cs",
-              "RelativeDocumentMoniker": "Notes.WebApi\\Startup.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Startup.cs",
-              "RelativeToolTip": "Notes.WebApi\\Startup.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAcwFAAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:28:41.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "Notes.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Program.cs",
-              "RelativeToolTip": "Notes.WebApi\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T19:10:35.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DatabaseInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\Services\\DatabaseInitializer.cs",
-              "RelativeDocumentMoniker": "Notes.Persistance\\Services\\DatabaseInitializer.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\Services\\DatabaseInitializer.cs",
-              "RelativeToolTip": "Notes.Persistance\\Services\\DatabaseInitializer.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAcwEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T16:34:47.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\Services\\FileService.cs",
-              "RelativeDocumentMoniker": "Notes.Persistance\\Services\\FileService.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\Services\\FileService.cs",
-              "RelativeToolTip": "Notes.Persistance\\Services\\FileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:23:09.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "CarConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\CarConfiguration.cs",
               "RelativeDocumentMoniker": "Notes.Persistance\\EntityTypeConfigurations\\CarConfiguration.cs",
               "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\CarConfiguration.cs",
               "RelativeToolTip": "Notes.Persistance\\EntityTypeConfigurations\\CarConfiguration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADgvzcAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwBIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T17:24:43.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IAppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Interfaces\\IAppDbContext.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Interfaces\\IAppDbContext.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Interfaces\\IAppDbContext.cs",
-              "RelativeToolTip": "Notes.Application\\Interfaces\\IAppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA4AAAAnAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SteeringWheel.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\SteeringWheel.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\EntityTypeConfigurations\\SteeringWheel.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\SteeringWheel.cs",
+              "RelativeToolTip": "Notes.Persistance\\EntityTypeConfigurations\\SteeringWheel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T16:26:24.246Z",
+              "WhenOpened": "2025-01-14T12:54:07.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CarLookupDto.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
-              "RelativeToolTip": "Notes.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Notes.WebApi\\Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Notes.WebApi\\Controllers\\CarController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAArwDkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T17:23:45.215Z",
+              "WhenOpened": "2025-01-11T19:08:37.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateCarCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandValidator.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandValidator.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandValidator.cs",
+              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandValidator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADgvycAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T15:15:36.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\AppDbContext.cs",
+              "RelativeToolTip": "Notes.Persistance\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAApwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T15:31:08.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateCarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
+              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:37:21.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\Services\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\Services\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\Services\\DatabaseInitializer.cs",
+              "RelativeToolTip": "Notes.Persistance\\Services\\DatabaseInitializer.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAADgv2wAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:34:47.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Notes.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Program.cs",
+              "RelativeToolTip": "Notes.WebApi\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAvwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T19:10:35.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BoxConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\BoxConfiguration.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\EntityTypeConfigurations\\BoxConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\BoxConfiguration.cs",
+              "RelativeToolTip": "Notes.Persistance\\EntityTypeConfigurations\\BoxConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:53:39.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BodyConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\BodyConfiguration.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\EntityTypeConfigurations\\BodyConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\BodyConfiguration.cs",
+              "RelativeToolTip": "Notes.Persistance\\EntityTypeConfigurations\\BodyConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:51:06.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CarColorConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\CarColorConfiguration.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\EntityTypeConfigurations\\CarColorConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\CarColorConfiguration.cs",
+              "RelativeToolTip": "Notes.Persistance\\EntityTypeConfigurations\\CarColorConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:53:12.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BrandConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\BrandConfiguration.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\EntityTypeConfigurations\\BrandConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\BrandConfiguration.cs",
+              "RelativeToolTip": "Notes.Persistance\\EntityTypeConfigurations\\BrandConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:54:59.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CarImageConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\CarImageConfiguration.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\EntityTypeConfigurations\\CarImageConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\EntityTypeConfigurations\\CarImageConfiguration.cs",
+              "RelativeToolTip": "Notes.Persistance\\EntityTypeConfigurations\\CarImageConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:27:07.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "IDatabaseInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Interfaces\\IDatabaseInitializer.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Interfaces\\IDatabaseInitializer.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Interfaces\\IDatabaseInitializer.cs",
-              "RelativeToolTip": "Notes.Application\\Interfaces\\IDatabaseInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T16:32:01.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IFileService.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Common\\Interfaces\\IFileService.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Common\\Interfaces\\IFileService.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Common\\Interfaces\\IFileService.cs",
-              "RelativeToolTip": "Notes.Application\\Common\\Interfaces\\IFileService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:20:49.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CarDetailsVm.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
-              "RelativeToolTip": "Notes.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T17:23:11.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Domain\\Car\\Car.cs",
               "RelativeDocumentMoniker": "Notes.Domain\\Car\\Car.cs",
               "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Domain\\Car\\Car.cs",
               "RelativeToolTip": "Notes.Domain\\Car\\Car.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T16:21:49.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "CarColor.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Domain\\Car\\CarColor.cs",
               "RelativeDocumentMoniker": "Notes.Domain\\Car\\CarColor.cs",
@@ -360,6 +348,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "Notes.Persistance\\Services\\FileService.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\Services\\FileService.cs",
+              "RelativeToolTip": "Notes.Persistance\\Services\\FileService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T13:23:09.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Interfaces\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Interfaces\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Interfaces\\IAppDbContext.cs",
+              "RelativeToolTip": "Notes.Application\\Interfaces\\IAppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:26:24.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IDatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Interfaces\\IDatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Interfaces\\IDatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Interfaces\\IDatabaseInitializer.cs",
+              "RelativeToolTip": "Notes.Application\\Interfaces\\IDatabaseInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:32:01.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Startup.cs",
+              "RelativeDocumentMoniker": "Notes.WebApi\\Startup.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.WebApi\\Startup.cs",
+              "RelativeToolTip": "Notes.WebApi\\Startup.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T13:28:41.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Domain\\Car\\Brand.cs",
@@ -368,19 +408,7 @@
               "RelativeToolTip": "Notes.Domain\\Car\\Brand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T16:24:10.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Notes.Persistance\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Persistance\\AppDbContext.cs",
-              "RelativeToolTip": "Notes.Persistance\\AppDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowBsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T15:31:08.869Z",
+              "WhenOpened": "2025-01-13T16:24:10.763Z",
               "EditorCaption": ""
             },
             {
@@ -393,11 +421,155 @@
               "RelativeToolTip": "Notes.Domain\\Car\\Body.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T15:50:47.151Z"
+              "WhenOpened": "2025-01-13T15:50:47.151Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Common\\Interfaces\\IFileService.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Common\\Interfaces\\IFileService.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Common\\Interfaces\\IFileService.cs",
+              "RelativeToolTip": "Notes.Application\\Common\\Interfaces\\IFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T13:20:49.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CarDetailsVm.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
+              "RelativeToolTip": "Notes.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAzwBgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:23:11.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CarLookupDto.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
+              "RelativeToolTip": "Notes.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA7wBgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:23:45.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetCarDetailsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
+              "RelativeToolTip": "Notes.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvyIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:23:37.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetCarListQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
+              "RelativeToolTip": "Notes.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:29:49.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateCarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandHandler.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandHandler.cs",
+              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwC4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T13:30:51.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateCarCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
+              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T15:16:27.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateCarCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommand.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommand.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommand.cs",
+              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:42:34.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Microsoft.NET.EolTargetFrameworks.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.404\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.404\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ViewState": "AgIAAA0AAAAAAAAAAAD4vx8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-01-14T10:23:09.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateCarCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandValidator.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandValidator.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandValidator.cs",
+              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandValidator.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T15:11:13.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DeleteCarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\DeleteCar\\DeleteCarCommandHandler.cs",
+              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\DeleteCar\\DeleteCarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\DeleteCar\\DeleteCarCommandHandler.cs",
+              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\DeleteCar\\DeleteCarCommandHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:54:09.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "SteeringWheel.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Domain\\Car\\SteeringWheel.cs",
               "RelativeDocumentMoniker": "Notes.Domain\\Car\\SteeringWheel.cs",
@@ -405,11 +577,12 @@
               "RelativeToolTip": "Notes.Domain\\Car\\SteeringWheel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T15:51:23.117Z"
+              "WhenOpened": "2025-01-13T15:51:23.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "Box.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Domain\\Car\\Box.cs",
               "RelativeDocumentMoniker": "Notes.Domain\\Car\\Box.cs",
@@ -417,55 +590,8 @@
               "RelativeToolTip": "Notes.Domain\\Car\\Box.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T15:51:02.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CreateCarCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandValidator.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandValidator.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandValidator.cs",
-              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandValidator.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwC0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T15:15:36.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UpdateCarCommand.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
-              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAswB4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T15:16:27.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CreateCarCommand.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommand.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommand.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommand.cs",
-              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommand.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T12:42:34.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UpdateCarCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandValidator.cs",
-              "RelativeDocumentMoniker": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandValidator.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\Notes.Backend\\Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandValidator.cs",
-              "RelativeToolTip": "Notes.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommandValidator.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T15:11:13.852Z"
+              "WhenOpened": "2025-01-13T15:51:02.185Z",
+              "EditorCaption": ""
             }
           ]
         },

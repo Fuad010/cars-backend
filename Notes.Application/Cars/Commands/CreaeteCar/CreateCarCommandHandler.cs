@@ -61,6 +61,15 @@ namespace Notes.Application.Cars.Commands.CreaeteCar
 
             await _dbContext.Cars.AddAsync(car, cancellationToken);
             await _dbContext.SaveChangesAsync(cancellationToken);
+            //try
+            //{
+            //    await _dbContext.SaveChangesAsync(cancellationToken);
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.ToString());
+            //    throw;
+            //}
 
             return car.Id;
         }

@@ -37,14 +37,19 @@ namespace Notes.Persistance.EntityTypeConfigurations
                 .IsRequired(false);
 
             builder.HasOne<Brand>()
-            .WithMany()
-            .HasForeignKey(c => c.BrandId)
-            .OnDelete(DeleteBehavior.Restrict);
+                .WithMany()
+                .HasForeignKey(c => c.BrandId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             builder.HasOne<CarColor>()
-            .WithMany()
-            .HasForeignKey(c => c.CarColorId)
-            .OnDelete(DeleteBehavior.Restrict);
+                .WithMany()
+                .HasForeignKey(c => c.CarColorId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasOne<Body>()
+                .WithMany()
+                .HasForeignKey(c => c.BodyId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             builder.HasOne<Box>()
                 .WithMany()
@@ -56,6 +61,10 @@ namespace Notes.Persistance.EntityTypeConfigurations
                 .HasForeignKey(c => c.SteeringWheelId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            builder.HasMany(c => c.Images)
+               .WithOne(ci => ci.Car)
+               .HasForeignKey(ci => ci.CarId)
+               .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }
