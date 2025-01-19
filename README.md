@@ -1,7 +1,7 @@
 ## 🚀 Technologies & Architecture Used
 
 - **Clean Architecture**: Structured, maintainable, and scalable architecture pattern.
-- **ASP.NET Core .NET 5**: A powerful framework for building web applications and APIs.
+- **ASP.NET Core .NET 6**: A powerful framework for building web applications and APIs.
 - **REST API**: A stateless architectural style for designing networked applications.
 - **MediatR**: A simple mediator pattern implementation for handling requests and responses.
 - **CQRS (Command Query Responsibility Segregation)**: Separating reading and writing operations for better scalability and optimization.
