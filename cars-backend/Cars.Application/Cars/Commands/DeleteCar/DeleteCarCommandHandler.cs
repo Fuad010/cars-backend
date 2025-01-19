@@ -1,7 +1,6 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Cars.Application.Common.Exceptions;
-using Cars.Application.Common.Interfaces;
 using Cars.Application.Interfaces;
 using Cars.Domain.Car;
 using System;
@@ -28,11 +27,6 @@ namespace Cars.Application.Cars.Commands.DeleteCar
         {
             var entity = await _dbContext.Cars
                 .FindAsync(new object[] { request.Id }, cancellationToken);
-
-            //if (entity == null || entity.UserId != request.UserId)
-            //{
-            //    throw new NotFoundException(nameof(Car), request.Id);
-            //}
 
             var images = await _dbContext.CarImages
                 .Where(image => image.CarId == request.Id)

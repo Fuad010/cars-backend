@@ -12,7 +12,6 @@ namespace Cars.Application.Cars.Commands.DeleteCar
         public DeleteCarCommandValidator()
         {
             RuleFor(deleteCarCommand => deleteCarCommand.Id).NotEqual(Guid.Empty);
-            //RuleFor(deleteCarCommand =>  deleteCarCommand.UserId).NotEqual(Guid.Empty);
         }
     }
 }

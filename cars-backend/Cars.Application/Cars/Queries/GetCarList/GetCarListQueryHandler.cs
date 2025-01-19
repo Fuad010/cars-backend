@@ -29,7 +29,6 @@ namespace Cars.Application.Cars.Queries.GetCarList
             CancellationToken cancellationToken)
         {
             var carsQuery = await _dbContext.Cars
-                //.Where(car => car.UserId == request.UserId)
                 .Include(car => car.Images)
                 .ProjectTo<CarLookupDto>(_mapper.ConfigurationProvider)
                 .ToListAsync(cancellationToken);

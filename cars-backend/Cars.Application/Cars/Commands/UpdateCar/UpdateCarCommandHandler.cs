@@ -1,7 +1,6 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Cars.Application.Common.Exceptions;
-using Cars.Application.Common.Interfaces;
 using Cars.Application.Interfaces;
 using Cars.Domain.Car;
 using System;
@@ -29,11 +28,6 @@ namespace Cars.Application.Cars.Commands.UpdateCar
         {
             var entity = await _dbContext.Cars.FirstOrDefaultAsync(car =>
             car.Id == request.Id, cancellationToken);
-
-            //if (entity == null || entity.UserId != request.UserId)
-            //{
-            //    throw new NotFoundException(nameof(Car), request.Id);
-            //}
 
             entity.Name = request.Name;
             entity.BrandId = request.BrandId;

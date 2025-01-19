@@ -10,6 +10,5 @@ namespace Cars.Domain.Car
     {
         public Guid Id { get; set; }
         public string BodyType { get; set; }
-        public ICollection<Car> Cars { get; set; }
     }
 }

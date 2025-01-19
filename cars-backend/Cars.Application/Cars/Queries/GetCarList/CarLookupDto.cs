@@ -1,4 +1,4 @@
-using AutoMapper;
+    using AutoMapper;
 using Cars.Application.Common.Mappings;
 using Cars.Domain.Car;
 using System;

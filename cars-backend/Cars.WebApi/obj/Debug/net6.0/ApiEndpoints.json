@@ -1,0 +1,278 @@
+[
+  {
+    "ContainingType": "Cars.WebApi.Controllers.BodyController",
+    "Method": "GetAll",
+    "RelativePath": "api/Body",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Cars.Application.CarBodies.Queries.GetBodyList.BodyListVm",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Cars.WebApi.Controllers.BodyController",
+    "Method": "Create",
+    "RelativePath": "api/Body",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createBodyDto",
+        "Type": "Cars.WebApi.Models.BodyDto.CreateBodyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Cars.WebApi.Controllers.BodyController",
+    "Method": "Delete",
+    "RelativePath": "api/Body/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Cars.WebApi.Controllers.CarController",
+    "Method": "GetAll",
+    "RelativePath": "api/Car",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Cars.Application.Cars.Queries.GetCarList.CarListVm",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Cars.WebApi.Controllers.CarController",
+    "Method": "Create",
+    "RelativePath": "api/Car",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BrandId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ColorId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "BoxId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "SteeringWheelId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "BodyId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Engine",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mileage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Cars.WebApi.Controllers.CarController",
+    "Method": "Get",
+    "RelativePath": "api/Car/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Cars.Application.Cars.Queries.GetCarDetails.CarDetailsVm",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Cars.WebApi.Controllers.CarController",
+    "Method": "Update",
+    "RelativePath": "api/Car/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BrandId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ColorId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "BoxId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "SteeringWheelId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "BodyId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Engine",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mileage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Cars.WebApi.Controllers.CarController",
+    "Method": "Delete",
+    "RelativePath": "api/Car/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

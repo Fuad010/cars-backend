@@ -11,8 +11,6 @@ namespace Cars.Application.Cars.Commands.UpdateCar
 {
     public class UpdateCarCommand : IRequest
     {
-        public Guid UserId { get; set; }
-
         public Guid Id { get; set; }
         public string Name { get; set; }
 

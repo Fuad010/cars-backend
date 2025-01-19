@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.Domain", "Cars.Domain\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.Application", "Cars.Application\Cars.Application.csproj", "{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.Persistance", "Cars.Persistance\Cars.Persistance.csproj", "{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.Persistence", "Cars.Persistence\Cars.Persistence.csproj", "{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.WebApi", "Cars.WebApi\Cars.WebApi.csproj", "{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}"
 EndProject

@@ -10,7 +10,6 @@ namespace Cars.Application.Cars.Commands.CreaeteCar
 {
         public class CreateCarCommand : IRequest<Guid>
         {
-            public Guid UserId { get; set; }
             public string Name { get; set; }
 
             public Guid BrandId { get; set; }

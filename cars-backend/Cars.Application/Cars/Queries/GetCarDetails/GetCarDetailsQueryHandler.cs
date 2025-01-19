@@ -29,7 +29,7 @@ namespace Cars.Application.Cars.Queries.GetCarDetails
         {
             var entity = await _dbContext.Cars
                 .Include(car => car.Images)
-                .AsNoTracking() // Оптимизация для чтения данных
+                .AsNoTracking()
                 .FirstOrDefaultAsync(car => car.Id == request.Id, cancellationToken);
 
             if (entity == null)

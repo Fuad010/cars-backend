@@ -24,10 +24,7 @@ namespace Cars.WebApi.Controllers
         [HttpGet]
         public async Task<ActionResult<CarListVm>> GetAll()
         {
-            var query = new GetCarListQuery
-            {
-                UserId = UserId
-            };
+            var query = new GetCarListQuery();
             var vm = await Mediator.Send(query);
             return Ok(vm);
         }
@@ -37,7 +34,6 @@ namespace Cars.WebApi.Controllers
         {
             var query = new GetCarDetailsQuery
             {
-                UserId = UserId,
                 Id = id,
             };
             var vm = await Mediator.Send(query);
@@ -48,7 +44,6 @@ namespace Cars.WebApi.Controllers
         public async Task<ActionResult<Guid>> Create([FromForm] CreateCarDto createCarDto)
         {
             var command = _mapper.Map<CreateCarCommand>(createCarDto);
-            command.UserId = UserId;
 
             if (createCarDto.Images != null && createCarDto.Images.Count > 0)
             {
@@ -61,9 +56,8 @@ namespace Cars.WebApi.Controllers
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(Guid id,[FromForm] UpdateCarDto updateCarDto)
-        {
+        {   
             var command = _mapper.Map<UpdateCarCommand>(updateCarDto);
-            command.UserId = UserId;
             command.Id = id;
 
             if (updateCarDto.Images != null && updateCarDto.Images.Count > 0)
@@ -81,7 +75,6 @@ namespace Cars.WebApi.Controllers
             var command = new DeleteCarCommand
             {
                 Id = id,
-                UserId = UserId
             };
             await Mediator.Send(command);
             return NoContent();

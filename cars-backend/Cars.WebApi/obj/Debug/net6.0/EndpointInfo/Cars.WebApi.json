@@ -1,0 +1,630 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Cars.WebApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Body": {
+      "get": {
+        "tags": [
+          "Body"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BodyListVm"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BodyListVm"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BodyListVm"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Body"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBodyDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBodyDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBodyDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Body/{id}": {
+      "delete": {
+        "tags": [
+          "Body"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Car": {
+      "get": {
+        "tags": [
+          "Car"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarListVm"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarListVm"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarListVm"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Car"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "BrandId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "ColorId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "BoxId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "SteeringWheelId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "BodyId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Engine": {
+                    "type": "string"
+                  },
+                  "Mileage": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Year": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Price": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Images": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "BrandId": {
+                  "style": "form"
+                },
+                "ColorId": {
+                  "style": "form"
+                },
+                "BoxId": {
+                  "style": "form"
+                },
+                "SteeringWheelId": {
+                  "style": "form"
+                },
+                "BodyId": {
+                  "style": "form"
+                },
+                "Engine": {
+                  "style": "form"
+                },
+                "Mileage": {
+                  "style": "form"
+                },
+                "Year": {
+                  "style": "form"
+                },
+                "Price": {
+                  "style": "form"
+                },
+                "Images": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Car/{id}": {
+      "get": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDetailsVm"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDetailsVm"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDetailsVm"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "BrandId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "ColorId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "BoxId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "SteeringWheelId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "BodyId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Engine": {
+                    "type": "string"
+                  },
+                  "Mileage": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Year": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Price": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Images": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "BrandId": {
+                  "style": "form"
+                },
+                "ColorId": {
+                  "style": "form"
+                },
+                "BoxId": {
+                  "style": "form"
+                },
+                "SteeringWheelId": {
+                  "style": "form"
+                },
+                "BodyId": {
+                  "style": "form"
+                },
+                "Engine": {
+                  "style": "form"
+                },
+                "Mileage": {
+                  "style": "form"
+                },
+                "Year": {
+                  "style": "form"
+                },
+                "Price": {
+                  "style": "form"
+                },
+                "Images": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BodyListVm": {
+        "type": "object",
+        "properties": {
+          "bodies": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BodyLookupDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BodyLookupDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "bodyType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CarDetailsVm": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "brandId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "colorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "boxId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "steeringWheelId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "bodyId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "engine": {
+            "type": "string",
+            "nullable": true
+          },
+          "mileage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "year": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "creationDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "editDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CarListVm": {
+        "type": "object",
+        "properties": {
+          "cars": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CarLookupDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CarLookupDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "brandId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "carColorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "boxId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "steeringWheelId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "bodyId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "engine": {
+            "type": "string",
+            "nullable": true
+          },
+          "mileage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "year": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "creationDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "editDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateBodyDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "bodyType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

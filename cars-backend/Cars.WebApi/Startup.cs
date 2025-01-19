@@ -7,7 +7,7 @@ using Microsoft.Extensions.Hosting;
 using Cars.Application;
 using Cars.Application.Common.Mappings;
 using Cars.Application.Interfaces;
-using Cars.Persistance;
+using Cars.Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,8 +15,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using Cars.WebApi.Middleware;
 using System.IO;
-using Cars.Application.Common.Interfaces;
-using Cars.Persistance.Services;
+using Cars.Persistence.Services;
 
 namespace Cars.WebApi
 {
@@ -37,7 +36,7 @@ namespace Cars.WebApi
             });
 
             services.AddApplication();
-            services.AddPersistance(Configuration);
+            services.AddPersistence(Configuration);
             services.AddControllers();
             services.AddScoped<IFileService, FileService>();
             services.AddScoped<IDatabaseInitializer, DatabaseInitializer>();

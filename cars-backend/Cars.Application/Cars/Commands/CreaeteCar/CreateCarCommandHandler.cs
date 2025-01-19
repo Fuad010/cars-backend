@@ -1,5 +1,4 @@
 using MediatR;
-using Cars.Application.Common.Interfaces;
 using Cars.Application.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -28,7 +27,7 @@ namespace Cars.Application.Cars.Commands.CreaeteCar
             var car = new Car
             {
                 Id = Guid.NewGuid(),
-                UserId = request.UserId,
+                UserId = null,
                 Name = request.Name,
                 BrandId = request.BrandId,
                 CarColorId = request.ColorId,

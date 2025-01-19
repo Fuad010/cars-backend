@@ -11,9 +11,7 @@ namespace Cars.Application.Cars.Queries.GetCarDetails
     {
         public GetCarDetailsQueryValidator()
         {
-
             RuleFor(car => car.Id).NotEqual(Guid.Empty);
-            //RuleFor(car => car.UserId).NotEqual(Guid.Empty);
         }
     }
 }
