@@ -83,3 +83,4 @@ C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Cars.Backend\cars-backe
 C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Cars.Backend\cars-backend\Cars.WebApi\obj\Debug\net6.0\Cars.WebApi.genruntimeconfig.cache
 C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Cars.Backend\cars-backend\Cars.WebApi\obj\Debug\net6.0\ref\Cars.WebApi.dll
 C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Cars.Backend\cars-backend\Cars.WebApi\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\Cars.Backend\cars-backend\Cars.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll

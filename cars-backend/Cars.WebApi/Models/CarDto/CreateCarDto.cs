@@ -4,6 +4,7 @@ using Cars.Application.Cars.Commands.CreaeteCar;
 using Cars.Application.Common.Mappings;
 using System.Collections.Generic;
 using System;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace Cars.WebApi.Models.CarDto
 {

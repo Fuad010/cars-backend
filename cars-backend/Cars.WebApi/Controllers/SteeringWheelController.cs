@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Cars.WebApi.Controllers
 {
-    [Route("asp/{controller}")]
+    [Route("asp/[controller]")]
     public class SteeringWheelController : BaseController
     {
         private readonly IMapper _mapper;

@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Cars.Application.Cars.Commands.CreaeteCar;
 using Cars.Application.Cars.Commands.DeleteCar;
@@ -9,6 +8,8 @@ using Cars.Application.Cars.Queries.GetCarList;
 using Cars.WebApi.Models.CarDto;
 using System;
 using System.Threading.Tasks;
+using Cars.Application.CarColors.Queries.GetColorList;
+using System.Collections.Generic;
 
 namespace Cars.WebApi.Controllers
 {
@@ -78,6 +79,14 @@ namespace Cars.WebApi.Controllers
             };
             await Mediator.Send(command);
             return NoContent();
+        }
+
+        [HttpGet("Сolors")]
+        public async Task<ActionResult<CarColorListVm>> GetCarColors()
+        {
+            var query = new GetCarColorListQuery();
+            var vm = await Mediator.Send(query);
+            return Ok(vm);
         }
     }
 }
