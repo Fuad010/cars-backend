@@ -7,14 +7,13 @@ namespace Cars.WebApi.Models.BodyDto
 {
     public class CreateBodyDto : IMapWith<CreateBodyCommand>
     {
-        public Guid Id { get; set; }
         public string BodyType { get; set; }
     
         public void Mapping(Profile profile)
         {
-            profile.CreateMap<CreateBodyDto, CreateBodyDto>()
+            profile.CreateMap<CreateBodyDto, CreateBodyCommand>()
                 .ForMember(bodyCommand => bodyCommand.BodyType,
-                    opt => opt.MapFrom(bodyDto=>bodyDto.BodyType));
+                opt => opt.MapFrom(bodyDto=>bodyDto.BodyType));
         }
     }
 }

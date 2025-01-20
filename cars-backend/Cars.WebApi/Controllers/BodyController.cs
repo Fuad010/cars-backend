@@ -32,9 +32,9 @@ namespace Cars.WebApi.Controllers
         public async Task<ActionResult<Guid>> Create([FromBody] CreateBodyDto createBodyDto)
         {
             var command = _mapper.Map<CreateBodyCommand>(createBodyDto);
-            var vm = await Mediator.Send(command);
+            var bodyId = await Mediator.Send(command);
 
-            return Ok(vm);
+            return Ok(bodyId);
         }
 
         [HttpDelete("{id}")]

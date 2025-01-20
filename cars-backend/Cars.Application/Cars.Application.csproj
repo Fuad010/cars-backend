@@ -18,10 +18,4 @@
     <ProjectReference Include="..\Cars.Domain\Cars.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="CarBrands\" />
-    <Folder Include="CarColors\" />
-    <Folder Include="CarSteeringWheels\" />
-  </ItemGroup>
-
 </Project>
