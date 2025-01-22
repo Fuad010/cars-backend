@@ -400,26 +400,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Cars.WebApi.Controllers.CarController",
-    "Method": "GetCarColors",
-    "RelativePath": "api/Car/\u0421olors",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "Cars.Application.CarColors.Queries.GetColorList.CarColorListVm",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
     "ContainingType": "Cars.WebApi.Controllers.CarColorController",
     "Method": "GetAll",
     "RelativePath": "asp/CarColor",

@@ -196,7 +196,7 @@ namespace Cars.Persistence.Migrations
                         .IsRequired();
 
                     b.HasOne("Cars.Domain.Car.Brand", null)
-                        .WithMany("Cars")
+                        .WithMany()
                         .HasForeignKey("BrandId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -223,11 +223,6 @@ namespace Cars.Persistence.Migrations
                         .IsRequired();
 
                     b.Navigation("Car");
-                });
-
-            modelBuilder.Entity("Cars.Domain.Car.Brand", b =>
-                {
-                    b.Navigation("Cars");
                 });
 
             modelBuilder.Entity("Cars.Domain.Car.Car", b =>

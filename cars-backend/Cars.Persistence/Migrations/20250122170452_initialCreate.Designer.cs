@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cars.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250119172825_initialCreate")]
+    [Migration("20250122170452_initialCreate")]
     partial class initialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -198,7 +198,7 @@ namespace Cars.Persistence.Migrations
                         .IsRequired();
 
                     b.HasOne("Cars.Domain.Car.Brand", null)
-                        .WithMany("Cars")
+                        .WithMany()
                         .HasForeignKey("BrandId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -225,11 +225,6 @@ namespace Cars.Persistence.Migrations
                         .IsRequired();
 
                     b.Navigation("Car");
-                });
-
-            modelBuilder.Entity("Cars.Domain.Car.Brand", b =>
-                {
-                    b.Navigation("Cars");
                 });
 
             modelBuilder.Entity("Cars.Domain.Car.Car", b =>

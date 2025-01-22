@@ -14,7 +14,7 @@ namespace Cars.Application.CarSteeringWheels.Queries
         public Guid Id { get; set; }
         public string SteeringWheel { get; set; }
 
-        public void Mappnig(Profile profile)
+        public void Mapping(Profile profile)
         {
             profile.CreateMap<SteeringWheel, SteeringWheelLookupDto>()
                 .ForMember(dto => dto.Id, opt => opt.MapFrom(wheel => wheel.Id))

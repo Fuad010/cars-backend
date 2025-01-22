@@ -355,7 +355,6 @@
                   },
                   "ColorId": {
                     "type": "string",
-                    "description": "Select the car color by its ID from the dropdown.",
                     "format": "uuid"
                   },
                   "BoxId": {
@@ -635,35 +634,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Car/Сolors": {
-      "get": {
-        "tags": [
-          "Car"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/CarColorListVm"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CarColorListVm"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CarColorListVm"
-                }
-              }
-            }
           }
         }
       }

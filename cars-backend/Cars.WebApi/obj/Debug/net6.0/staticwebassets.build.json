@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NFfMJ0X5gnX1EP6CpROM3qtJE2of/UPxdNLJ9STtMbM=",
+  "Hash": "tZFoAsg1qLtgWYoqf4xFCDbjKWZ5d4uveOLLRlvolX4=",
   "Source": "Cars.WebApi",
   "BasePath": "_content/Cars.WebApi",
   "Mode": "Default",
@@ -10,19 +10,19 @@
     {
       "Name": "Cars.WebApi\\wwwroot",
       "Source": "Cars.WebApi",
-      "ContentRoot": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Cars.Backend\\cars-backend\\Cars.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\",
       "BasePath": "_content/Cars.WebApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Cars.Backend\\cars-backend\\Cars.WebApi\\wwwroot\\images\\c29c1f2a-0955-449a-8f3e-98c5fe0df354.jpg",
+      "Identity": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\953bf1a4-ad84-4d46-be0f-e7da19e96ddf.jpg",
       "SourceId": "Cars.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Cars.Backend\\cars-backend\\Cars.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\",
       "BasePath": "_content/Cars.WebApi",
-      "RelativePath": "images/c29c1f2a-0955-449a-8f3e-98c5fe0df354#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/953bf1a4-ad84-4d46-be0f-e7da19e96ddf#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -35,15 +35,15 @@
       "Integrity": "JJG2hcRldRqjxRowHOt/DDwGyMcEvv8/0i/BZ9InUcs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\c29c1f2a-0955-449a-8f3e-98c5fe0df354.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\953bf1a4-ad84-4d46-be0f-e7da19e96ddf.jpg"
     },
     {
-      "Identity": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Cars.Backend\\cars-backend\\Cars.WebApi\\wwwroot\\images\\d5f00adb-ed97-49eb-af05-368bd2510e9d.jpg",
+      "Identity": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\959c4ec5-624c-48d5-b88a-c2c5258dc8d2.jpg",
       "SourceId": "Cars.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Cars.Backend\\cars-backend\\Cars.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\",
       "BasePath": "_content/Cars.WebApi",
-      "RelativePath": "images/d5f00adb-ed97-49eb-af05-368bd2510e9d#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/959c4ec5-624c-48d5-b88a-c2c5258dc8d2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -56,13 +56,13 @@
       "Integrity": "3Vr3dmTr8Lwi7camDARY4JU9J6cBgvfO3NfcETXzTRg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\d5f00adb-ed97-49eb-af05-368bd2510e9d.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\959c4ec5-624c-48d5-b88a-c2c5258dc8d2.jpg"
     }
   ],
   "Endpoints": [
     {
-      "Route": "images/c29c1f2a-0955-449a-8f3e-98c5fe0df354.cg9kmra13s.jpg",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Cars.Backend\\cars-backend\\Cars.WebApi\\wwwroot\\images\\c29c1f2a-0955-449a-8f3e-98c5fe0df354.jpg",
+      "Route": "images/953bf1a4-ad84-4d46-be0f-e7da19e96ddf.cg9kmra13s.jpg",
+      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\953bf1a4-ad84-4d46-be0f-e7da19e96ddf.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -83,7 +83,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 13:58:34 GMT"
+          "Value": "Wed, 22 Jan 2025 16:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -97,7 +97,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/c29c1f2a-0955-449a-8f3e-98c5fe0df354.jpg"
+          "Value": "images/953bf1a4-ad84-4d46-be0f-e7da19e96ddf.jpg"
         },
         {
           "Name": "integrity",
@@ -106,8 +106,8 @@
       ]
     },
     {
-      "Route": "images/c29c1f2a-0955-449a-8f3e-98c5fe0df354.jpg",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Cars.Backend\\cars-backend\\Cars.WebApi\\wwwroot\\images\\c29c1f2a-0955-449a-8f3e-98c5fe0df354.jpg",
+      "Route": "images/953bf1a4-ad84-4d46-be0f-e7da19e96ddf.jpg",
+      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\953bf1a4-ad84-4d46-be0f-e7da19e96ddf.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -128,7 +128,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 13:58:34 GMT"
+          "Value": "Wed, 22 Jan 2025 16:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -143,8 +143,8 @@
       ]
     },
     {
-      "Route": "images/d5f00adb-ed97-49eb-af05-368bd2510e9d.jpg",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Cars.Backend\\cars-backend\\Cars.WebApi\\wwwroot\\images\\d5f00adb-ed97-49eb-af05-368bd2510e9d.jpg",
+      "Route": "images/959c4ec5-624c-48d5-b88a-c2c5258dc8d2.jpg",
+      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\959c4ec5-624c-48d5-b88a-c2c5258dc8d2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -165,7 +165,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 13:58:34 GMT"
+          "Value": "Wed, 22 Jan 2025 16:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -180,8 +180,8 @@
       ]
     },
     {
-      "Route": "images/d5f00adb-ed97-49eb-af05-368bd2510e9d.xfiuuxm960.jpg",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\Cars.Backend\\cars-backend\\Cars.WebApi\\wwwroot\\images\\d5f00adb-ed97-49eb-af05-368bd2510e9d.jpg",
+      "Route": "images/959c4ec5-624c-48d5-b88a-c2c5258dc8d2.xfiuuxm960.jpg",
+      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\959c4ec5-624c-48d5-b88a-c2c5258dc8d2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -202,7 +202,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 13:58:34 GMT"
+          "Value": "Wed, 22 Jan 2025 16:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -216,7 +216,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/d5f00adb-ed97-49eb-af05-368bd2510e9d.jpg"
+          "Value": "images/959c4ec5-624c-48d5-b88a-c2c5258dc8d2.jpg"
         },
         {
           "Name": "integrity",

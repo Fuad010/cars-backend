@@ -80,13 +80,5 @@ namespace Cars.WebApi.Controllers
             await Mediator.Send(command);
             return NoContent();
         }
-
-        [HttpGet("Сolors")]
-        public async Task<ActionResult<CarColorListVm>> GetCarColors()
-        {
-            var query = new GetCarColorListQuery();
-            var vm = await Mediator.Send(query);
-            return Ok(vm);
-        }
     }
 }

@@ -76,6 +76,7 @@ namespace Cars.WebApi
             app.UseCustomExceptionHandler();
             app.UseRouting();
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
             app.UseCors("AllowAll");
 
             using (var scope = app.ApplicationServices.CreateScope())
