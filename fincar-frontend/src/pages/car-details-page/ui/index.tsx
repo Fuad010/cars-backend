@@ -1,3 +1,3 @@
-export const TodoDetailsPage = () => {
-    return <div>TodoDetailsPage</div>
+export const CarDetailsPage = () => {
+    return <div>CarDetailsPage</div>
 }

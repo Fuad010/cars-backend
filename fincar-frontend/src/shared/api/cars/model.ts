@@ -12,5 +12,9 @@ export type Car = {
     price: number,
     images: string[]
     creationDate: Date,
-    editDate: Date | null
+    editDate?: Date | null
+}
+
+export type QueryParams = {
+    branId?: string;
 }

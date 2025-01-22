@@ -1,3 +1,4 @@
+import { CarListPage } from "pages/car-list-page";
 import { createBrowserRouter } from "react-router-dom";
 import { MainLayout } from "shared/ui/main-layout";
 
@@ -8,7 +9,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <>car list</>
+                element: <CarListPage/>
             },
             {
                 path: ":id",

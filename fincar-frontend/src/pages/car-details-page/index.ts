@@ -1,1 +1,1 @@
-export { TodoDetailsPage } from "./ui/index";
+export { CarDetailsPage } from "./ui/index";
