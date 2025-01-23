@@ -1,4 +1,4 @@
-import { Result, Space, Spin } from "antd";
+import { Result, Row, Space, Spin } from "antd";
 import { carModel, CarRow } from "entities/car";
 import { observer } from "mobx-react-lite";
 import { useEffect } from "react";
@@ -14,16 +14,18 @@ export const CarListPage = observer(() => {
     if (carListError) {
        return <Result title={carListError}></Result>
     }
-    console.log(carList);
     
     return (
-        <Space>
+        <Space direction="vertical">
             <p>filter</p>
             {isLoading ? (
                 <Spin />
             ) : (
-                carList.map((car) => (<CarRow key={car.id} name={car.name} id={car.id} />
-            )))}
+                carList.map((car) => (
+                    <Row>
+                        <CarRow key={car.id} name={car.name} id={car.id} />
+                    </Row>
+                )))}
         </Space>
     )
 })

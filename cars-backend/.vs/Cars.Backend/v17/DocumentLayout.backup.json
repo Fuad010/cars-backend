@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\entitytypeconfigurations\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\entitytypeconfigurations\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Cars.Domain\\Cars.Domain.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.domain\\car\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Cars.Domain\\Cars.Domain.csproj|solutionrelative:cars.domain\\car\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.webapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -222,7 +222,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 146,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -266,19 +266,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DatabaseInitializer.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\DatabaseInitializer.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\Services\\DatabaseInitializer.cs",
               "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\DatabaseInitializer.cs",
               "RelativeToolTip": "Cars.Persistence\\Services\\DatabaseInitializer.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAYwDEAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAG0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T16:19:59.829Z"
+              "WhenOpened": "2025-01-22T16:19:59.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Domain\\Car\\Brand.cs",
               "RelativeDocumentMoniker": "Cars.Domain\\Car\\Brand.cs",
@@ -290,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BrandConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BrandConfiguration.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\EntityTypeConfigurations\\BrandConfiguration.cs",
@@ -298,8 +299,7 @@
               "RelativeToolTip": "Cars.Persistence\\EntityTypeConfigurations\\BrandConfiguration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T11:51:01.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T11:51:01.737Z"
             },
             {
               "$type": "Document",

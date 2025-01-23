@@ -15,6 +15,10 @@ export type Car = {
     editDate?: Date | null
 }
 
+export type CarObject = {
+    cars: Car[]
+}
+
 export type QueryParams = {
-    branId?: string;
+    brandId?: string;
 }

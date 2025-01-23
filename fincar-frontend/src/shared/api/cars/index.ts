@@ -1,10 +1,10 @@
 import { httpClient } from "../http-client"
-import { Car, QueryParams } from "./model"
+import { Car, CarObject, QueryParams } from "./model"
  
 const SLUG = "car"
 
 export const getCar = (params: QueryParams ) =>
-    httpClient.get(SLUG, {searchParams: params}).json<Car[]>();
+    httpClient.get(SLUG, {searchParams: params}).json<CarObject>();
 
 export const getCarById = (id: string) =>
     httpClient.get(`${SLUG}/${id}`).json<Car>();

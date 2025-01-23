@@ -8,7 +8,7 @@ type Props = {
 
 export const CarRow = ({id, name}: Props) => {
     return(
-        <Card>
+        <Card style={{ width: "600px" }}>
             <Checkbox>open</Checkbox>
             <Link to={`/${id}`}>{name}</Link>
         </Card>

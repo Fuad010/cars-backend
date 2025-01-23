@@ -15,16 +15,15 @@ class CarStore {
     }
 
     getCarList = async (params: QueryParams) => {
-
             try {
             this.isLoading = true;
-
             const data = await getCar(params);
-            
+
             runInAction(() =>{
                 this.isLoading = false;
-                this.carList = data;
+                this.carList = data.cars;
             })
+            
         } catch (error) {
             if (error instanceof Error) {
                 runInAction(() => {
