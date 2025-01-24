@@ -1,5 +1,5 @@
 import { CarListPage } from "pages/car-list-page";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Layout } from "app/layout";
 
 export const router = createBrowserRouter([
@@ -9,7 +9,11 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <>car</>
+                element: <Navigate to="/home" replace />
+            },
+            {
+                path: '/home',
+                element: <>home</>
             },
             {
                 path: ":id",

@@ -14,7 +14,7 @@ export const FincarLogoButton: FC<IButton> = (props) => {
         fontColor,
     } = props
     return (
-        <NavLink to='/'
+        <NavLink to='/home'
             className={clsx(
                 styles.fincarButton,
                 fontColor === 'yellow' && styles.yellow,

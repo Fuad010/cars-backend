@@ -3,7 +3,7 @@ import styles from './yellowButton.module.css'
 
 export const YellowButton = () => {
     return (
-        <NavLink className={styles.yellowButton} to={"/"}>
+        <NavLink className={styles.yellowButton} to={"/dashboard"}>
             Go to dashboard
         </NavLink>
     )

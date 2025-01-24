@@ -6,4 +6,5 @@ a:hover {
 
 body {
     font-family: 'SF Pro Display', sans-serif;
+    background: var(--Neutral-Background, #F0EFF5);
 }
