@@ -9,7 +9,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <CarListPage/>
+                element: <>car</>
             },
             {
                 path: ":id",

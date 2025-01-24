@@ -3,9 +3,15 @@
     font-style: normal;
     font-weight: 590;
     line-height: 32px;
+    transition: 0.1s;
+    transition-timing-function: linear;
 }
 
-.orange{
+.fincarButton:hover{
+    color: #c99f34;
+}
+
+.yellow{
     color: #F5BD2F;
 }
 

@@ -1,0 +1,20 @@
+.yellowButton{
+    display: flex;
+    height: 36px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background: var(--Secondary-05, #F5BD2F);
+    color: var(--Primary-05, #183178);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: 24px; 
+    transition: 0.1s;
+    transition-timing-function: linear;
+}
+.yellowButton:hover{
+    background-color: #c99f34;
+}
