@@ -1,11 +1,11 @@
 import { CarListPage } from "pages/car-list-page";
 import { createBrowserRouter } from "react-router-dom";
-import { MainLayout } from "shared/ui/main-layout";
+import { Layout } from "app/layout";
 
 export const router = createBrowserRouter([
     {
         path: '/',
-        element: <MainLayout/>,
+        element: <Layout/>,
         children: [
             {
                 index: true,

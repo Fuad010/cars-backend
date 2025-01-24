@@ -1,0 +1,14 @@
+.nav_wrapper{
+    display: flex;
+    justify-content: center;
+    background: var(--Primary-05, #183178);
+}
+
+.navbar_container{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding-right: 0px 24px;
+    max-width: 1230px;
+    height: 56px;
+}

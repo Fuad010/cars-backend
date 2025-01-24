@@ -1,1 +1,0 @@
-export { CarDetailsPage } from "./ui/index";
