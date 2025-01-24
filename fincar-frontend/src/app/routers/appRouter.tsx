@@ -1,4 +1,3 @@
-import { CarListPage } from "pages/car-list-page";
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Layout } from "app/layout";
 

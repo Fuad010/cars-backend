@@ -19,7 +19,6 @@
     max-height: 480px;
     height: 100vw;
     width: 100%;
-    background-color: aqua;
     background: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .4));
     position: relative;
 }

@@ -13,7 +13,7 @@ export const Header = () =>{
         <>
         {isHomePage ? (
             <header className={styles.home_header_container}>
-                <img src={homeHeaderBgImg} />
+                <img src={homeHeaderBgImg} alt="home_background"/>
                 <div className={styles.home_nav_wrapper}>
                     <div className={styles.home_navbar}>
                         <div className={styles.home_navbar_content}>
