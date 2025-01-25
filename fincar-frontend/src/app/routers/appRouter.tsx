@@ -1,6 +1,7 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Layout } from "app/layout";
 import { Home } from "pages/home";
+import { CarListPage } from "pages/car-list-page";
 
 export const router = createBrowserRouter([
     {
@@ -13,7 +14,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/home',
-                element: <Home />
+                element: <CarListPage />
             },
             {
                 path: ":id",
