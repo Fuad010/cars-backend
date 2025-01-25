@@ -8,7 +8,6 @@ namespace Cars.WebApi.Models.CarColorDto
 {
     public class CreateCarColorDto : IMapWith<CreateCarColorDto>
     {
-        public Guid Id { get; set; }
         public string ColorName { get; set; }
         public void Mapping(Profile profile)
         {

@@ -7,7 +7,6 @@ namespace Cars.WebApi.Models.BrandDto
 {
     public class CreateBrandDto : IMapWith<CreateBrandDto>
     {
-        public Guid Id { get; set; }
         public string Name { get; set; }
 
         public void Mapping(Profile profile)

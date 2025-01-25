@@ -9,7 +9,6 @@ namespace Cars.Application.CarBoxes.Commands.CreateBox
 {
     public class CreateBoxCommand : IRequest<Guid>
     {
-        public Guid Id { get; set; }
         public string BoxType { get; set; }
     }
 }

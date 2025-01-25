@@ -33,30 +33,29 @@ namespace Cars.Persistence.EntityTypeConfigurations
             builder.Property(c => c.CreationDate)
                 .IsRequired();
 
-            builder.Property(c => c.EditDate)
-                .IsRequired(false);
+            builder.Property(c => c.EditDate);
 
-            builder.HasOne<Brand>()
-                .WithMany()
-                .HasForeignKey(c => c.BrandId)
-                .OnDelete(DeleteBehavior.Restrict);
+            builder.HasOne(c => c.Brand)
+                  .WithMany()
+                  .HasForeignKey(c => c.BrandId)
+                  .OnDelete(DeleteBehavior.Restrict);
 
-            builder.HasOne<CarColor>()
+            builder.HasOne(c => c.CarColor)
                 .WithMany()
                 .HasForeignKey(c => c.CarColorId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            builder.HasOne<Body>()
+            builder.HasOne(c => c.Body)
                 .WithMany()
                 .HasForeignKey(c => c.BodyId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            builder.HasOne<Box>()
+            builder.HasOne(c => c.Box)
                 .WithMany()
                 .HasForeignKey(c => c.BoxId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            builder.HasOne<SteeringWheel>()
+            builder.HasOne(c => c.SteeringWheel)
                 .WithMany()
                 .HasForeignKey(c => c.SteeringWheelId)
                 .OnDelete(DeleteBehavior.Restrict);

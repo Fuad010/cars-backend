@@ -7,7 +7,6 @@ namespace Cars.WebApi.Models.SteeringWheelDto
 {
     public class CreateSteeringWheelDto : IMapWith<CreateSteeringWheelDto>
     {
-        public Guid Id { get; set; }
         public string SteeringWheelType { get; set; }
 
         public void Mapping(Profile profile)

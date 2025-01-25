@@ -20,6 +20,11 @@ namespace Cars.Persistence.EntityTypeConfigurations
             builder.Property(c => c.ColorName)
                 .IsRequired()
                 .HasMaxLength(50);
+
+            builder.HasMany(b => b.Cars)
+               .WithOne(c => c.CarColor)
+               .HasForeignKey(c => c.CarColorId)
+               .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

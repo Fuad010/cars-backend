@@ -19,7 +19,12 @@ namespace Cars.Persistence.EntityTypeConfigurations
 
             builder.Property(b => b.Name)
                 .IsRequired()
-                .HasMaxLength(100); 
+                .HasMaxLength(100);
+
+            builder.HasMany(b => b.Cars)
+               .WithOne(c => c.Brand)
+               .HasForeignKey(c => c.BrandId)
+               .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

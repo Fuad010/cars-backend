@@ -30,6 +30,11 @@ namespace Cars.Application.Cars.Queries.GetCarList
         {
             var carsQuery = await _dbContext.Cars
                 .Include(car => car.Images)
+                .Include(car => car.Body)
+                .Include(car => car.Brand)
+                .Include(car => car.SteeringWheel)
+                .Include(car => car.CarColor)
+                .Include(car => car.Box)
                 .ProjectTo<CarLookupDto>(_mapper.ConfigurationProvider)
                 .ToListAsync(cancellationToken);
 

@@ -1,5 +1,6 @@
 ﻿
 using AutoMapper;
+using Cars.Application.CarBrands.Commands.CreateBrand;
 using Cars.Application.CarBrands.Commands.DeleteBrand;
 using Cars.Application.CarBrands.Queries.GetBrandList;
 using Cars.WebApi.Models.BrandDto;
@@ -30,7 +31,7 @@ namespace Cars.WebApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Guid>> Create([FromBody] CreateBrandDto createBrandDto)
         {
-            var command = _mapper.Map<CreateBrandDto>(createBrandDto);
+            var command = _mapper.Map<CreateBrandCommand>(createBrandDto);
             var brandId = await Mediator.Send(command);
 
             return Ok(brandId);

@@ -321,11 +321,6 @@
         "IsRequired": true
       },
       {
-        "Name": "Id",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
         "Name": "Name",
         "Type": "System.String",
         "IsRequired": false

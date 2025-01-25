@@ -13,11 +13,11 @@ namespace Cars.Application.Cars.Queries.GetCarDetails
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
-        public Guid BrandId { get; set; }
-        public Guid ColorId { get; set; }
-        public Guid BoxId { get; set; }
-        public Guid SteeringWheelId { get; set; }
-        public Guid BodyId { get; set; }
+        public string BrandName { get; set; }
+        public string ColorName { get; set; }
+        public string BoxType { get; set; }
+        public string SteeringWheelType { get; set; }
+        public string BodyType { get; set; }
         public string Engine { get; set; }
         public int Mileage { get; set; }
         public int Year { get; set; }
@@ -31,11 +31,11 @@ namespace Cars.Application.Cars.Queries.GetCarDetails
             profile.CreateMap<Car, CarDetailsVm>()
                 .ForMember(vm => vm.Id, opt => opt.MapFrom(car => car.Id))
                 .ForMember(vm => vm.Name, opt => opt.MapFrom(car => car.Name))
-                .ForMember(vm => vm.BrandId, opt => opt.MapFrom(car => car.BrandId))
-                .ForMember(vm => vm.ColorId, opt => opt.MapFrom(car => car.CarColorId))
-                .ForMember(vm => vm.BoxId, opt => opt.MapFrom(car => car.BoxId))
-                .ForMember(vm => vm.SteeringWheelId, opt => opt.MapFrom(car => car.SteeringWheelId))
-                .ForMember(vm => vm.BodyId, opt => opt.MapFrom(car => car.BodyId))
+                .ForMember(vm => vm.BrandName, opt => opt.MapFrom(car => car.Brand.Name))
+                .ForMember(vm => vm.ColorName, opt => opt.MapFrom(car => car.CarColor.ColorName))
+                .ForMember(vm => vm.BoxType, opt => opt.MapFrom(car => car.Box.BoxType))
+                .ForMember(vm => vm.SteeringWheelType, opt => opt.MapFrom(car => car.SteeringWheel.SteeringWheelType))
+                .ForMember(vm => vm.BodyType, opt => opt.MapFrom(car => car.Body.BodyType))
                 .ForMember(vm => vm.Engine, opt => opt.MapFrom(car => car.Engine))
                 .ForMember(vm => vm.Mileage, opt => opt.MapFrom(car => car.Mileage))
                 .ForMember(vm => vm.Year, opt => opt.MapFrom(car => car.Year))

@@ -24,5 +24,12 @@ namespace Cars.Domain.Car
         public decimal Price { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime? EditDate { get; set; }
+    
+        public Brand Brand { get; set; }
+        public CarColor CarColor { get; set; }
+        public Box Box { get; set; }
+        public Body Body { get; set; }
+        public SteeringWheel SteeringWheel { get; set; }
+
     }
 }

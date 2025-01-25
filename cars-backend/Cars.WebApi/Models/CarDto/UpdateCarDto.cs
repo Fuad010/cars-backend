@@ -10,7 +10,6 @@ namespace Cars.WebApi.Models.CarDto
 {
     public class UpdateCarDto : IMapWith<UpdateCarCommand>
     {
-        public Guid Id { get; set; }
         public string Name { get; set; }
         public Guid BrandId { get; set; }
         public Guid ColorId { get; set; }
@@ -25,8 +24,6 @@ namespace Cars.WebApi.Models.CarDto
         public void Mapping(Profile profile)
         {
             profile.CreateMap<UpdateCarDto, UpdateCarCommand>()
-                .ForMember(carCommand => carCommand.Id,
-                    opt => opt.MapFrom(carDto => carDto.Id))
                 .ForMember(carCommand => carCommand.Name,
                     opt => opt.MapFrom(carDto => carDto.Name))
                 .ForMember(carCommand => carCommand.BrandId,

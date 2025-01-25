@@ -183,35 +183,45 @@ namespace Cars.Persistence.Migrations
 
             modelBuilder.Entity("Cars.Domain.Car.Car", b =>
                 {
-                    b.HasOne("Cars.Domain.Car.Body", null)
-                        .WithMany()
+                    b.HasOne("Cars.Domain.Car.Body", "Body")
+                        .WithMany("Cars")
                         .HasForeignKey("BodyId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("Cars.Domain.Car.Box", null)
-                        .WithMany()
+                    b.HasOne("Cars.Domain.Car.Box", "Box")
+                        .WithMany("Cars")
                         .HasForeignKey("BoxId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("Cars.Domain.Car.Brand", null)
-                        .WithMany()
+                    b.HasOne("Cars.Domain.Car.Brand", "Brand")
+                        .WithMany("Cars")
                         .HasForeignKey("BrandId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("Cars.Domain.Car.CarColor", null)
-                        .WithMany()
+                    b.HasOne("Cars.Domain.Car.CarColor", "CarColor")
+                        .WithMany("Cars")
                         .HasForeignKey("CarColorId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("Cars.Domain.Car.SteeringWheel", null)
-                        .WithMany()
+                    b.HasOne("Cars.Domain.Car.SteeringWheel", "SteeringWheel")
+                        .WithMany("Cars")
                         .HasForeignKey("SteeringWheelId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.Navigation("Body");
+
+                    b.Navigation("Box");
+
+                    b.Navigation("Brand");
+
+                    b.Navigation("CarColor");
+
+                    b.Navigation("SteeringWheel");
                 });
 
             modelBuilder.Entity("Cars.Domain.Car.CarImage", b =>
@@ -225,9 +235,34 @@ namespace Cars.Persistence.Migrations
                     b.Navigation("Car");
                 });
 
+            modelBuilder.Entity("Cars.Domain.Car.Body", b =>
+                {
+                    b.Navigation("Cars");
+                });
+
+            modelBuilder.Entity("Cars.Domain.Car.Box", b =>
+                {
+                    b.Navigation("Cars");
+                });
+
+            modelBuilder.Entity("Cars.Domain.Car.Brand", b =>
+                {
+                    b.Navigation("Cars");
+                });
+
             modelBuilder.Entity("Cars.Domain.Car.Car", b =>
                 {
                     b.Navigation("Images");
+                });
+
+            modelBuilder.Entity("Cars.Domain.Car.CarColor", b =>
+                {
+                    b.Navigation("Cars");
+                });
+
+            modelBuilder.Entity("Cars.Domain.Car.SteeringWheel", b =>
+                {
+                    b.Navigation("Cars");
                 });
 #pragma warning restore 612, 618
         }

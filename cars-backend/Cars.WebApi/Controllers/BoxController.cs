@@ -31,7 +31,7 @@ namespace Cars.WebApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Guid>> Create([FromBody] CreateBoxDto createBoxDto)
         {
-            var command = _mapper.Map<CreateBoxDto>(createBoxDto);
+            var command = _mapper.Map<CreateBoxCommand>(createBoxDto);
             var boxId = await Mediator.Send(command);
 
             return Ok(boxId);

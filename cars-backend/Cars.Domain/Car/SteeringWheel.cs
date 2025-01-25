@@ -10,5 +10,6 @@ namespace Cars.Domain.Car
     {
         public Guid Id { get; set; }
         public string SteeringWheelType { get; set; }
+        public ICollection<Car> Cars { get; set; } = new List<Car>();
     }
 }

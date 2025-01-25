@@ -29,6 +29,11 @@ namespace Cars.Application.Cars.Queries.GetCarDetails
         {
             var entity = await _dbContext.Cars
                 .Include(car => car.Images)
+                .Include(car => car.Body)
+                .Include(car => car.Brand)
+                .Include(car => car.Box)
+                .Include(car => car.SteeringWheel)
+                .Include(car => car.CarColor)
                 .AsNoTracking()
                 .FirstOrDefaultAsync(car => car.Id == request.Id, cancellationToken);
 

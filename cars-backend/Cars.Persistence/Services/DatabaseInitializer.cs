@@ -169,6 +169,246 @@ namespace Cars.Persistence.Services
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null,
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "530",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"), 
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
+                        Engine = "2.0L I4",
+                        Mileage = 22000,
+                        Year = 2022,
+                        Price = 45000,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\22e9c230-ac18-4ab8-b434-47a0f4494ae8.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "X5",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"), 
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"), 
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"), 
+                        Engine = "3.0L I6",
+                        Mileage = 18000,
+                        Year = 2020,
+                        Price = 65000,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\6636e71f-57de-4d5d-bc35-a81299639e24.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "Uni-V iDD",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"),
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
+                        Engine = "1.5L Turbo",
+                        Mileage = 12000,
+                        Year = 2023,
+                        Price = 23000,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\f14524c4-49e5-40e5-a53a-0cd3489cc9b7.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "Fusion",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"), 
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"), 
+                        Engine = "2.5L I4",
+                        Mileage = 40000,
+                        Year = 2018,
+                        Price = 18000,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\5c01655c-adc3-4be9-8987-4e07d76741e4.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "(VAZ) Niva",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"),
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
+                        Engine = "1.7L I4",
+                        Mileage = 80000,
+                        Year = 2015,
+                        Price = 5000,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\0c438680-d72b-4ffb-8733-4ae009e41742.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "LADA (VAZ) 1 Niva",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"),
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
+                        Engine = "1.7L I4",
+                        Mileage = 85000,
+                        Year = 2013,
+                        Price = 5200,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\b79736e0-92a1-4fc2-aca4-ec3af031d3d6.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "Lada",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"),
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
+                        Engine = "1.6L I4",
+                        Mileage = 45000,
+                        Year = 2017,
+                        Price = 7000,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\f0d56cff-51f8-4759-87ef-117de742516f.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "Aventador",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"),
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
+                        Engine = "6.5L V12",
+                        Mileage = 5000,
+                        Year = 2021,
+                        Price = 300000,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\499053cf-691d-4bdc-bf92-0f0ebf213fdb.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "L7",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"),
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
+                        Engine = "Electric",
+                        Mileage = 10000,
+                        Year = 2022,
+                        Price = 70000,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\0246e77c-d21e-4e0d-955e-7bf8eadccf11.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "Pathfinder",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"),
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
+                        Engine = "3.5L V6",
+                        Mileage = 20000,
+                        Year = 2021,
+                        Price = 45000,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\651d359e-6a2e-4b00-a48d-05a9dbfa6351.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "Highlander",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"),
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
+                        Engine = "3.5L V6",
+                        Mileage = 15000,
+                        Year = 2020,
+                        Price = 42000,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\ToyotaHighlander.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
+                    },
+                    new Car
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "RAV4",
+                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
+                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
+                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"),
+                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
+                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
+                        Engine = "2.5L I4",
+                        Mileage = 12000,
+                        Year = 2022,
+                        Price = 30000,
+                        Images = new List<CarImage>
+                        {
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\70443509-de8c-4f22-9e63-f91c908cc11b.jpg" },
+                        },
+                        CreationDate = DateTime.Now,
+                        EditDate = null
                     }
                 });
 

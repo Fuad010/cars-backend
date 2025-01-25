@@ -7,7 +7,6 @@ namespace Cars.WebApi.Models.BoxDto
 {
     public class CreateBoxDto : IMapWith<CreateBoxDto>
     {
-        public Guid Id { get; set; }
         public string BoxType { get; set; }
 
         public void Mapping (Profile profile)

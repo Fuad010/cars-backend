@@ -20,6 +20,11 @@ namespace Cars.Persistence.EntityTypeConfigurations
             builder.Property(s => s.SteeringWheelType)
                 .IsRequired()
                 .HasMaxLength(50);
+
+            builder.HasMany(b => b.Cars)
+               .WithOne(c => c.SteeringWheel)
+               .HasForeignKey(c => c.SteeringWheelId)
+               .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

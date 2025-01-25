@@ -518,10 +518,6 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "Id": {
-                    "type": "string",
-                    "format": "uuid"
-                  },
                   "Name": {
                     "type": "string"
                   },
@@ -570,9 +566,6 @@
                 }
               },
               "encoding": {
-                "Id": {
-                  "style": "form"
-                },
                 "Name": {
                   "style": "form"
                 },
@@ -962,25 +955,25 @@
             "type": "string",
             "nullable": true
           },
-          "brandId": {
+          "brandName": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
-          "colorId": {
+          "colorName": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
-          "boxId": {
+          "boxType": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
-          "steeringWheelId": {
+          "steeringWheelType": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
-          "bodyId": {
+          "bodyType": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
           "engine": {
             "type": "string",
@@ -1041,25 +1034,25 @@
             "type": "string",
             "nullable": true
           },
-          "brandId": {
+          "brandName": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
-          "carColorId": {
+          "colorName": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
-          "boxId": {
+          "boxType": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
-          "steeringWheelId": {
+          "steeringWheelType": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
-          "bodyId": {
+          "bodyType": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
           "engine": {
             "type": "string",
@@ -1109,10 +1102,6 @@
       "CreateBoxDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
           "boxType": {
             "type": "string",
             "nullable": true
@@ -1123,10 +1112,6 @@
       "CreateBrandDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
           "name": {
             "type": "string",
             "nullable": true
@@ -1137,10 +1122,6 @@
       "CreateCarColorDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
           "colorName": {
             "type": "string",
             "nullable": true
@@ -1151,10 +1132,6 @@
       "CreateSteeringWheelDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
           "steeringWheelType": {
             "type": "string",
             "nullable": true

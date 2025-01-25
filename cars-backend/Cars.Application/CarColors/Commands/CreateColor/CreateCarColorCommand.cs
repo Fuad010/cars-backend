@@ -9,7 +9,6 @@ namespace Cars.Application.CarColors.Commands.CreateColor
 {
     public class CreateCarColorCommand : IRequest<Guid>
     {
-        public Guid Id { get; set; }
         public string ColorName { get; set; }
     }
 }
