@@ -28,3 +28,9 @@
     overflow-y: hidden;
     padding-bottom: 20px;
 }
+
+.skeletonContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

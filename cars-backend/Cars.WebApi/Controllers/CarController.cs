@@ -23,9 +23,12 @@ namespace Cars.WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<CarListVm>> GetAll()
+        public async Task<ActionResult<CarListVm>> GetAll(int? count)
         {
-            var query = new GetCarListQuery();
+            var query = new GetCarListQuery
+            {
+                Count = count
+            };
             var vm = await Mediator.Send(query);
             return Ok(vm);
         }

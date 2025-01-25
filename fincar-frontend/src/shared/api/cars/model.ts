@@ -1,11 +1,11 @@
 export type Car = {
     id: string,
     name: string,
-    brandId: string,
-    carColorId: string,
-    boxId: string,
-    steeringWheelId: string,
-    bodyId: string,
+    brandName: string,
+    carColorName: string,
+    boxType: string,
+    steeringWheelType: string,
+    bodyType: string,
     engine: string,
     mileage: number,
     year: number,
@@ -17,8 +17,4 @@ export type Car = {
 
 export type CarObject = {
     cars: Car[]
-}
-
-export type QueryParams = {
-    brandId?: string;
 }

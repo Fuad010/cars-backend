@@ -18,4 +18,8 @@
     <ProjectReference Include="..\Cars.Domain\Cars.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Cars\Queries\GetLastestCars\" />
+  </ItemGroup>
+
 </Project>

@@ -185,7 +185,7 @@ namespace Cars.Persistence.Services
                         Price = 45000,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\22e9c230-ac18-4ab8-b434-47a0f4494ae8.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\22e9c230-ac18-4ab8-b434-47a0f4494ae8.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null
@@ -205,7 +205,7 @@ namespace Cars.Persistence.Services
                         Price = 65000,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\6636e71f-57de-4d5d-bc35-a81299639e24.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\6636e71f-57de-4d5d-bc35-a81299639e24.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null
@@ -225,7 +225,7 @@ namespace Cars.Persistence.Services
                         Price = 23000,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\f14524c4-49e5-40e5-a53a-0cd3489cc9b7.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\f14524c4-49e5-40e5-a53a-0cd3489cc9b7.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null
@@ -245,7 +245,7 @@ namespace Cars.Persistence.Services
                         Price = 18000,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\5c01655c-adc3-4be9-8987-4e07d76741e4.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\5c01655c-adc3-4be9-8987-4e07d76741e4.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null
@@ -265,7 +265,7 @@ namespace Cars.Persistence.Services
                         Price = 5000,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\0c438680-d72b-4ffb-8733-4ae009e41742.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\0c438680-d72b-4ffb-8733-4ae009e41742.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null
@@ -285,7 +285,7 @@ namespace Cars.Persistence.Services
                         Price = 5200,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\b79736e0-92a1-4fc2-aca4-ec3af031d3d6.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\b79736e0-92a1-4fc2-aca4-ec3af031d3d6.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null
@@ -305,7 +305,7 @@ namespace Cars.Persistence.Services
                         Price = 7000,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\f0d56cff-51f8-4759-87ef-117de742516f.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\f0d56cff-51f8-4759-87ef-117de742516f.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null
@@ -325,7 +325,7 @@ namespace Cars.Persistence.Services
                         Price = 300000,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\499053cf-691d-4bdc-bf92-0f0ebf213fdb.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\499053cf-691d-4bdc-bf92-0f0ebf213fdb.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null
@@ -345,7 +345,7 @@ namespace Cars.Persistence.Services
                         Price = 70000,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\0246e77c-d21e-4e0d-955e-7bf8eadccf11.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\0246e77c-d21e-4e0d-955e-7bf8eadccf11.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null
@@ -365,7 +365,7 @@ namespace Cars.Persistence.Services
                         Price = 45000,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\651d359e-6a2e-4b00-a48d-05a9dbfa6351.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\651d359e-6a2e-4b00-a48d-05a9dbfa6351.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null
@@ -385,7 +385,7 @@ namespace Cars.Persistence.Services
                         Price = 42000,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\ToyotaHighlander.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\2bed6cd4-605e-4fd8-87f2-17a9cca2acb1.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null
@@ -405,7 +405,7 @@ namespace Cars.Persistence.Services
                         Price = 30000,
                         Images = new List<CarImage>
                         {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"wwwroot\images\70443509-de8c-4f22-9e63-f91c908cc11b.jpg" },
+                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\70443509-de8c-4f22-9e63-f91c908cc11b.jpg" },
                         },
                         CreationDate = DateTime.Now,
                         EditDate = null

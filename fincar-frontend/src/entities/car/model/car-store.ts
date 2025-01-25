@@ -1,6 +1,6 @@
 import { makeAutoObservable, runInAction } from "mobx";
-import { getCar, getCarById, updateCar } from "shared/api/cars";
-import { Car, QueryParams } from "shared/api/cars/model";
+import { getCars, getCarById, updateCar } from "shared/api/cars";
+import { Car } from "shared/api/cars/model";
 
 class CarStore {
     carList: Car[] = [];
@@ -14,10 +14,10 @@ class CarStore {
         makeAutoObservable(this)
     }
 
-    getCarList = async (params: QueryParams) => {
+    getCarList = async (count?:number) => {
             try {
             this.isLoading = true;
-            const data = await getCar(params);
+            const data = await getCars(count);
 
             runInAction(() =>{
                 this.isLoading = false;

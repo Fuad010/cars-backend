@@ -8,7 +8,6 @@ export const CarListPage = observer(() => {
      = carModel
      
     useEffect(() => {
-        getCarList({});
     }, [])
 
     if (carListError) {

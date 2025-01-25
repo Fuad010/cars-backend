@@ -48,7 +48,7 @@ namespace Cars.Application.Cars.Commands.CreaeteCar
                 foreach (var image in request.Images)
                 {
                     var imagePath = await _fileService.SaveFileAsync(image);
-
+                    
                     car.Images.Add(new CarImage 
                         { 
                             ImageUrl = imagePath 

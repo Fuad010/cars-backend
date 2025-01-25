@@ -24,11 +24,15 @@ namespace Cars.Persistence.Services
         public async Task<string> SaveFileAsync(IFormFile file)
         {
             var filePath = Path.Combine(_imageDirectory, Guid.NewGuid() + Path.GetExtension(file.FileName));
+
             using (var stream = new FileStream(filePath, FileMode.Create))
             {
                 await file.CopyToAsync(stream);
             }
-            return filePath;
+
+            var relativeFilePath = filePath.Replace("wwwroot\\", "");
+
+            return relativeFilePath;
         }
 
         public async Task DeleteFileAsync(string filePath)
