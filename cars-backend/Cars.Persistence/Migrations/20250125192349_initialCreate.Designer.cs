@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cars.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250125133015_initialCreate")]
+    [Migration("20250125192349_initialCreate")]
     partial class initialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

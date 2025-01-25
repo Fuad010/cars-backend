@@ -2,6 +2,8 @@ import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './carCard.module.css'
 
+const baseUrl = import.meta.env.VITE_API_BASE_URL_FOR_IMAGES;
+
 interface CarCardProps{
     brandName: string
     name:string
@@ -21,12 +23,11 @@ export const CarCard: FC<CarCardProps> = ({
     engine,
     image,
 }) => {
-    console.log(image);
     
     return(
         <Link to={''} className={styles.card_container}>
             <div className={styles.title_container}>
-                <img src={image || '/placeholder.jpg'} alt="car" />
+                <img src={`${baseUrl}${image}`} alt="car" />
                 <div className={styles.price_container}>
                     <div className={styles.price}>{`${price.toLocaleString("en-US")} $`}</div>
                 </div>

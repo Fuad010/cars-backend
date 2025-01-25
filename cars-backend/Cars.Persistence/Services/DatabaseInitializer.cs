@@ -373,26 +373,6 @@ namespace Cars.Persistence.Services
                     new Car
                     {
                         Id = Guid.NewGuid(),
-                        Name = "Highlander",
-                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
-                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
-                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"),
-                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
-                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
-                        Engine = "3.5L V6",
-                        Mileage = 15000,
-                        Year = 2020,
-                        Price = 42000,
-                        Images = new List<CarImage>
-                        {
-                            new CarImage { Id = Guid.NewGuid(), CarId = Guid.NewGuid(), ImageUrl = @"images\2bed6cd4-605e-4fd8-87f2-17a9cca2acb1.jpg" },
-                        },
-                        CreationDate = DateTime.Now,
-                        EditDate = null
-                    },
-                    new Car
-                    {
-                        Id = Guid.NewGuid(),
                         Name = "RAV4",
                         BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
                         CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),

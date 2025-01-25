@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3+hSrFPBHcv7UITtprs0XVxg5hqcPcbdH6hzkZrA/JI=",
+  "Hash": "0CZgD93MoiHFrLNwsj8KIvNv6yYqkc/9KPeOGSpd8b4=",
   "Source": "Cars.WebApi",
   "BasePath": "_content/Cars.WebApi",
   "Mode": "Default",
@@ -59,27 +59,6 @@
       "OriginalItemSpec": "wwwroot\\images\\0c438680-d72b-4ffb-8733-4ae009e41742.jpg"
     },
     {
-      "Identity": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\1a5aa282-d17d-47ab-97f4-b25e21b207a2.png",
-      "SourceId": "Cars.WebApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\",
-      "BasePath": "_content/Cars.WebApi",
-      "RelativePath": "images/1a5aa282-d17d-47ab-97f4-b25e21b207a2#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9gkf9jesy7",
-      "Integrity": "Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\1a5aa282-d17d-47ab-97f4-b25e21b207a2.png"
-    },
-    {
       "Identity": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\22e9c230-ac18-4ab8-b434-47a0f4494ae8.jpg",
       "SourceId": "Cars.WebApi",
       "SourceType": "Discovered",
@@ -120,27 +99,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\499053cf-691d-4bdc-bf92-0f0ebf213fdb.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\4c8a1249-44dc-442c-b2b1-9d64e2f48442.png",
-      "SourceId": "Cars.WebApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\",
-      "BasePath": "_content/Cars.WebApi",
-      "RelativePath": "images/4c8a1249-44dc-442c-b2b1-9d64e2f48442#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9gkf9jesy7",
-      "Integrity": "Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\4c8a1249-44dc-442c-b2b1-9d64e2f48442.png"
     },
     {
       "Identity": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\5c01655c-adc3-4be9-8987-4e07d76741e4.jpg",
@@ -309,48 +267,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\b79736e0-92a1-4fc2-aca4-ec3af031d3d6.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\bf70e27e-c7e5-4354-81ec-e4b78f1132da.png",
-      "SourceId": "Cars.WebApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\",
-      "BasePath": "_content/Cars.WebApi",
-      "RelativePath": "images/bf70e27e-c7e5-4354-81ec-e4b78f1132da#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9gkf9jesy7",
-      "Integrity": "Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\bf70e27e-c7e5-4354-81ec-e4b78f1132da.png"
-    },
-    {
-      "Identity": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\d4fd471d-d3b9-44f9-99b2-f5b7b86a869d.png",
-      "SourceId": "Cars.WebApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\",
-      "BasePath": "_content/Cars.WebApi",
-      "RelativePath": "images/d4fd471d-d3b9-44f9-99b2-f5b7b86a869d#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9gkf9jesy7",
-      "Integrity": "Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\d4fd471d-d3b9-44f9-99b2-f5b7b86a869d.png"
     },
     {
       "Identity": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\f0d56cff-51f8-4759-87ef-117de742516f.jpg",
@@ -561,88 +477,6 @@
       ]
     },
     {
-      "Route": "images/1a5aa282-d17d-47ab-97f4-b25e21b207a2.9gkf9jesy7.png",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\1a5aa282-d17d-47ab-97f4-b25e21b207a2.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "285"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Jan 2025 18:57:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9gkf9jesy7"
-        },
-        {
-          "Name": "label",
-          "Value": "images/1a5aa282-d17d-47ab-97f4-b25e21b207a2.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc="
-        }
-      ]
-    },
-    {
-      "Route": "images/1a5aa282-d17d-47ab-97f4-b25e21b207a2.png",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\1a5aa282-d17d-47ab-97f4-b25e21b207a2.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "285"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Jan 2025 18:57:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc="
-        }
-      ]
-    },
-    {
       "Route": "images/22e9c230-ac18-4ab8-b434-47a0f4494ae8.crexanfy1x.jpg",
       "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\22e9c230-ac18-4ab8-b434-47a0f4494ae8.jpg",
       "Selectors": [],
@@ -803,88 +637,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-STzYNlULLlDxJ71aE92MP8rsArg6MApDQI8qk1O0fR0="
-        }
-      ]
-    },
-    {
-      "Route": "images/4c8a1249-44dc-442c-b2b1-9d64e2f48442.9gkf9jesy7.png",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\4c8a1249-44dc-442c-b2b1-9d64e2f48442.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "285"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Jan 2025 18:48:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9gkf9jesy7"
-        },
-        {
-          "Name": "label",
-          "Value": "images/4c8a1249-44dc-442c-b2b1-9d64e2f48442.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc="
-        }
-      ]
-    },
-    {
-      "Route": "images/4c8a1249-44dc-442c-b2b1-9d64e2f48442.png",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\4c8a1249-44dc-442c-b2b1-9d64e2f48442.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "285"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Jan 2025 18:48:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc="
         }
       ]
     },
@@ -1541,170 +1293,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-VEr4d7XQ8vgjUEto6yJxUvxXE3/TXhdvy2B/Yf3ZYe8="
-        }
-      ]
-    },
-    {
-      "Route": "images/bf70e27e-c7e5-4354-81ec-e4b78f1132da.9gkf9jesy7.png",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\bf70e27e-c7e5-4354-81ec-e4b78f1132da.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "285"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Jan 2025 18:59:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9gkf9jesy7"
-        },
-        {
-          "Name": "label",
-          "Value": "images/bf70e27e-c7e5-4354-81ec-e4b78f1132da.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc="
-        }
-      ]
-    },
-    {
-      "Route": "images/bf70e27e-c7e5-4354-81ec-e4b78f1132da.png",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\bf70e27e-c7e5-4354-81ec-e4b78f1132da.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "285"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Jan 2025 18:59:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc="
-        }
-      ]
-    },
-    {
-      "Route": "images/d4fd471d-d3b9-44f9-99b2-f5b7b86a869d.9gkf9jesy7.png",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\d4fd471d-d3b9-44f9-99b2-f5b7b86a869d.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "285"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Jan 2025 19:04:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9gkf9jesy7"
-        },
-        {
-          "Name": "label",
-          "Value": "images/d4fd471d-d3b9-44f9-99b2-f5b7b86a869d.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc="
-        }
-      ]
-    },
-    {
-      "Route": "images/d4fd471d-d3b9-44f9-99b2-f5b7b86a869d.png",
-      "AssetFile": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.WebApi\\wwwroot\\images\\d4fd471d-d3b9-44f9-99b2-f5b7b86a869d.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "285"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Jan 2025 19:04:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc="
         }
       ]
     },

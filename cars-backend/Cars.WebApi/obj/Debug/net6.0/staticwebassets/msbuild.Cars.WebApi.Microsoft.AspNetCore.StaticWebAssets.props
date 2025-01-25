@@ -36,24 +36,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0c438680-d72b-4ffb-8733-4ae009e41742.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1a5aa282-d17d-47ab-97f4-b25e21b207a2.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Cars.WebApi</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Cars.WebApi</BasePath>
-      <RelativePath>images/1a5aa282-d17d-47ab-97f4-b25e21b207a2.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9gkf9jesy7</Fingerprint>
-      <Integrity>Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1a5aa282-d17d-47ab-97f4-b25e21b207a2.png'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\22e9c230-ac18-4ab8-b434-47a0f4494ae8.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Cars.WebApi</SourceId>
@@ -89,24 +71,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\499053cf-691d-4bdc-bf92-0f0ebf213fdb.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4c8a1249-44dc-442c-b2b1-9d64e2f48442.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Cars.WebApi</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Cars.WebApi</BasePath>
-      <RelativePath>images/4c8a1249-44dc-442c-b2b1-9d64e2f48442.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9gkf9jesy7</Fingerprint>
-      <Integrity>Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4c8a1249-44dc-442c-b2b1-9d64e2f48442.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\5c01655c-adc3-4be9-8987-4e07d76741e4.jpg'))">
       <SourceType>Package</SourceType>
@@ -251,42 +215,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b79736e0-92a1-4fc2-aca4-ec3af031d3d6.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bf70e27e-c7e5-4354-81ec-e4b78f1132da.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Cars.WebApi</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Cars.WebApi</BasePath>
-      <RelativePath>images/bf70e27e-c7e5-4354-81ec-e4b78f1132da.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9gkf9jesy7</Fingerprint>
-      <Integrity>Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bf70e27e-c7e5-4354-81ec-e4b78f1132da.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d4fd471d-d3b9-44f9-99b2-f5b7b86a869d.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Cars.WebApi</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Cars.WebApi</BasePath>
-      <RelativePath>images/d4fd471d-d3b9-44f9-99b2-f5b7b86a869d.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9gkf9jesy7</Fingerprint>
-      <Integrity>Scrb6XsgmO4zioaNjiU6yKd5q21c2sLudATa04wyLcc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d4fd471d-d3b9-44f9-99b2-f5b7b86a869d.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f0d56cff-51f8-4759-87ef-117de742516f.jpg'))">
       <SourceType>Package</SourceType>

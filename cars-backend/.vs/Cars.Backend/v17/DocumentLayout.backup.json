@@ -142,12 +142,11 @@
               "Title": "CreateCarCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
               "RelativeDocumentMoniker": "Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs*",
-              "RelativeToolTip": "Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs*",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
+              "RelativeToolTip": "Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAASwDEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T19:09:20.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T19:09:20.307Z"
             },
             {
               "$type": "Document",
@@ -155,9 +154,9 @@
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\FileService.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\Services\\FileService.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\FileService.cs*",
-              "RelativeToolTip": "Cars.Persistence\\Services\\FileService.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvx0AAAAvAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\FileService.cs",
+              "RelativeToolTip": "Cars.Persistence\\Services\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T18:50:01.473Z",
               "EditorCaption": ""
@@ -208,8 +207,7 @@
               "RelativeToolTip": "Cars.Persistence\\Services\\DatabaseInitializer.cs",
               "ViewState": "AgIAAHYBAAAAAAAAAAASwIsBAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:38:36.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:38:36.293Z"
             },
             {
               "$type": "Document",
