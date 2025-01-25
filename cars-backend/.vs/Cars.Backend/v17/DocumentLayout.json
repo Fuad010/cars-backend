@@ -114,8 +114,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 146,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -126,8 +130,7 @@
               "RelativeToolTip": "Cars.WebApi\\Models\\CarDto\\UpdateCarDto.cs",
               "ViewState": "AgIAABAAAAAAAAAAAIAxwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:46:36.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:46:36.294Z"
             },
             {
               "$type": "Document",
@@ -139,8 +142,7 @@
               "RelativeToolTip": "Cars.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:46:17.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:46:17.265Z"
             },
             {
               "$type": "Document",
@@ -152,8 +154,7 @@
               "RelativeToolTip": "Cars.Persistence\\Services\\DatabaseInitializer.cs",
               "ViewState": "AgIAAGkBAAAAAAAAAAAAAIQBAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:38:36.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:38:36.293Z"
             },
             {
               "$type": "Document",
@@ -165,8 +166,7 @@
               "RelativeToolTip": "Cars.WebApi\\Controllers\\CarController.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAApwDwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T11:29:53.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T11:29:53.903Z"
             },
             {
               "$type": "Document",
@@ -178,8 +178,7 @@
               "RelativeToolTip": "Cars.Domain\\Car\\Body.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:19:43.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:19:43.939Z"
             },
             {
               "$type": "Document",
@@ -204,8 +203,7 @@
               "RelativeToolTip": "Cars.WebApi\\Models\\SteeringWheelDto\\CreateSteeringWheelDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:30:49.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:30:49.827Z"
             },
             {
               "$type": "Document",
@@ -217,8 +215,7 @@
               "RelativeToolTip": "Cars.WebApi\\Models\\CarColorDto\\CreateCarColorDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:30:41.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:30:41.186Z"
             },
             {
               "$type": "Document",
@@ -230,8 +227,7 @@
               "RelativeToolTip": "Cars.WebApi\\Models\\BrandDto\\CreateBrandDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:30:35.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:30:35.453Z"
             },
             {
               "$type": "Document",
@@ -243,8 +239,7 @@
               "RelativeToolTip": "Cars.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAswA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:14:47.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:14:47.326Z"
             },
             {
               "$type": "Document",
@@ -256,8 +251,7 @@
               "RelativeToolTip": "Cars.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:14:40.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:14:40.156Z"
             },
             {
               "$type": "Document",
@@ -269,8 +263,7 @@
               "RelativeToolTip": "Cars.Application\\CarBrands\\Commands\\CreateBrand\\CreateBrandCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:29:03.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:29:03.98Z"
             },
             {
               "$type": "Document",
@@ -282,8 +275,7 @@
               "RelativeToolTip": "Cars.Application\\CarBoxes\\Commands\\CreateBox\\CreateBoxCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:29:07.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:29:07.869Z"
             },
             {
               "$type": "Document",
@@ -295,8 +287,7 @@
               "RelativeToolTip": "Cars.Application\\CarColors\\Commands\\CreateColor\\CreateCarColorCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:29:00.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:29:00.195Z"
             },
             {
               "$type": "Document",
@@ -308,8 +299,7 @@
               "RelativeToolTip": "Cars.WebApi\\Controllers\\BrandController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAA1wCEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:28:26.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:28:26.718Z"
             },
             {
               "$type": "Document",
@@ -321,8 +311,7 @@
               "RelativeToolTip": "Cars.WebApi\\Models\\BoxDto\\CreateBoxDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:27:17.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:27:17.665Z"
             },
             {
               "$type": "Document",
@@ -334,8 +323,7 @@
               "RelativeToolTip": "Cars.WebApi\\Controllers\\CarColorController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:28:34.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:28:34.999Z"
             },
             {
               "$type": "Document",
@@ -347,8 +335,7 @@
               "RelativeToolTip": "Cars.WebApi\\Controllers\\BoxController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:28:12.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:28:12.375Z"
             },
             {
               "$type": "Document",
@@ -360,8 +347,7 @@
               "RelativeToolTip": "Cars.Application\\CarSteeringWheels\\Commands\\CreateSteeringWheel\\CreateSteeringWheelCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:28:48.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:28:48.616Z"
             },
             {
               "$type": "Document",
@@ -373,8 +359,7 @@
               "RelativeToolTip": "Cars.Persistence\\EntityTypeConfigurations\\CarColorConfiguration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:22:50.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:22:50.593Z"
             },
             {
               "$type": "Document",
@@ -386,8 +371,7 @@
               "RelativeToolTip": "Cars.Persistence\\EntityTypeConfigurations\\BrandConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:22:33.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:22:33.798Z"
             },
             {
               "$type": "Document",
@@ -399,8 +383,7 @@
               "RelativeToolTip": "Cars.Persistence\\EntityTypeConfigurations\\BoxConfiguration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:22:08.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:22:08.577Z"
             },
             {
               "$type": "Document",
@@ -424,12 +407,7 @@
               "RelativeToolTip": "Cars.Persistence\\EntityTypeConfigurations\\BodyConfiguration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:20:20.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-01-25T12:20:20.513Z"
             },
             {
               "$type": "Document",
@@ -441,8 +419,7 @@
               "RelativeToolTip": "Cars.Domain\\Car\\Box.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:19:52.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:19:52.7Z"
             },
             {
               "$type": "Document",
@@ -454,8 +431,7 @@
               "RelativeToolTip": "Cars.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwBYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T12:15:22.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T12:15:22.716Z"
             }
           ]
         },
