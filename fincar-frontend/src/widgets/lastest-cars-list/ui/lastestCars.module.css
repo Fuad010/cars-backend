@@ -1,0 +1,30 @@
+.wrapper{
+    justify-self: center;
+    max-width: 1128px;
+    width: 100%;
+    padding: 36px 88px 80px 88px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.titleContainer{
+    width: 100%;
+}
+
+.titleContainer > h5{
+    color: var(--Neutral-Text-Dark, #505673);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 32px;
+}
+
+.listContainer{
+    display: flex;
+    gap: 24px;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+}

@@ -1,7 +1,8 @@
 import { FincarLogoButton } from 'shared/ui/fincar-logo-button/fincarLogoButton'
 import styles from './footer.module.css'
 import githubLogo from 'shared/assets/icons/githubLogo.svg'
-import { NavLink } from 'react-router-dom'
+import linkedinLogo from 'shared/assets/icons/linkedinLogo.svg'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
     return(
@@ -12,10 +13,17 @@ export const Footer = () => {
                 </div>
                 <div className={styles.rightContent}>
                     <p>Social networks</p>
-                    <div>
-                        <NavLink to="https://github.com/Fuad010/fincar-project">
-                            <img src={githubLogo} alt="githubLogo" />
-                        </NavLink>
+                    <div className={styles.socialContainer}>
+                        <div>
+                            <Link to="https://github.com/Fuad010/fincar-project">
+                                <img src={githubLogo} alt="githubLogo" />
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to="https://github.com/Fuad010/fincar-project">
+                                <img src={linkedinLogo} alt="githubLogo" />
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
-import { Footer } from '../../widgets/footer'
-import { Header } from '../../widgets/header'
+import { Footer } from 'widgets/footer'
+import { Header } from 'widgets/header'
 import { Outlet, ScrollRestoration } from 'react-router-dom'
 
 export const Layout = () => {

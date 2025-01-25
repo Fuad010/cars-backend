@@ -1,1 +1,1 @@
-export { CarListPage } from "./ui/index";
+export { CarListPage } from "./ui/carListPage";

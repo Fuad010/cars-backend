@@ -1,0 +1,1 @@
+export { LastestCars } from './ui/lastestCars'
