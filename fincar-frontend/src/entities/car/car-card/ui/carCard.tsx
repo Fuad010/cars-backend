@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import styles from './carCard.module.css'
+import styles from './carCard.module.css';
 
-const baseUrl = import.meta.env.VITE_API_BASE_URL_FOR_IMAGES;
+const baseUrl = import.meta.env.VITE_API_BASE_URL.replace('/api','')
 
 interface CarCardProps{
     brandName: string
