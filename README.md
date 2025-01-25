@@ -38,10 +38,17 @@ The backend is powered by ASP.NET Core Web API. Follow these steps to start it:
    ```bash
    dotnet run --project Cars.WebApi
 
-   ### 🔄 Important Note:
+## 🔄 Important Note:
 The frontend communicates with the backend API. Ensure that the backend is running before starting the frontend. You may need to configure the base URL for API requests in the frontend's environment configuration file.
 
 1. Create a `.env` file in the frontend root directory (if it doesn't exist).
 2. Add the following configuration to the `.env` file:
    ```env
    VITE_API_BASE_URL=http://localhost:5000
+3. Install the required dependencies by running the following command:
+   ````
+   npm install
+4. After installing the dependencies, run the following command to start the frontend:
+   ````
+   npm run dev
+    
