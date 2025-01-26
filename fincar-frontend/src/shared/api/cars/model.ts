@@ -2,7 +2,7 @@ export type Car = {
     id: string,
     name: string,
     brandName: string,
-    carColorName: string,
+    colorName: string,
     boxType: string,
     steeringWheelType: string,
     bodyType: string,

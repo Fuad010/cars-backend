@@ -1,0 +1,25 @@
+.wrapper{
+    padding: 24px 0;
+}
+
+.wrapper h1{
+    color: var(--Neutral-Text-Dark, #505673);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: 28px; 
+}
+
+.wrapper h2{
+    color: #E51A17;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 40px;
+}
+
+.content{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}

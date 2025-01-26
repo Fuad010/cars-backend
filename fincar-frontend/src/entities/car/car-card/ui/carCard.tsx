@@ -5,6 +5,7 @@ import styles from './carCard.module.css';
 const baseUrl = import.meta.env.VITE_API_BASE_URL.replace('/api','')
 
 interface CarCardProps{
+    id:string
     brandName: string
     name:string
     price:number
@@ -15,6 +16,7 @@ interface CarCardProps{
 }
 
 export const CarCard: FC<CarCardProps> = ({
+    id,
     brandName,
     name,
     price,
@@ -25,7 +27,7 @@ export const CarCard: FC<CarCardProps> = ({
 }) => {
     
     return(
-        <Link to={''} className={styles.card_container}>
+        <Link to={`/auto/${id}`} className={styles.card_container}>
             <div className={styles.title_container}>
                 <img src={`${baseUrl}${image}`} alt="car" />
                 <div className={styles.price_container}>

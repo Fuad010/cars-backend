@@ -1,4 +1,4 @@
-@import '../../assets/fonts/font.css';
+@import 'shared/assets/fonts/font.css';
 
 a:hover {
     cursor: pointer;

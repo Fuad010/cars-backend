@@ -2,21 +2,20 @@ import { useEffect } from 'react'
 import styles from './lastestCars.module.css'
 import { CarCard } from 'entities/car/car-card'
 import { carModel } from 'entities/car'
-import { CardSkeleton } from 'shared/ui/cardSkeleton'
 import { observer } from 'mobx-react-lite'
+import { SkeletonContainer } from 'shared/ui/skeleton-container'
 
 export const LastestCars = observer(() =>{
-    const { store: { getCarList, carListError, carList, isLoading  } } 
+    const { store: { getCarListLimited, carListError, carListLimited, isLoading  } } 
     = carModel
     
     useEffect(() => {
-        getCarList(10);
+        getCarListLimited(10);
     }, [])
 
     if (carListError) {
         return<>{carListError}</>
     }
-    console.log(carList);
     
     return (
         <div className={styles.wrapper}>
@@ -27,15 +26,12 @@ export const LastestCars = observer(() =>{
 
 
                 {isLoading ? ( 
-                    <div className={styles.skeletonContainer}>
-                        <CardSkeleton /> 
-                        <CardSkeleton /> 
-                        <CardSkeleton /> 
-                    </div>
-            ) : ( 
-                carList.map((car)=>(
+                    <SkeletonContainer defaultCount={3} />
+                ) : ( 
+                carListLimited.map((car)=>(
                     <CarCard
                         key={car.id}
+                        id={car.id}
                         brandName={car.brandName}
                         name={car.name}
                         engine={car.engine}

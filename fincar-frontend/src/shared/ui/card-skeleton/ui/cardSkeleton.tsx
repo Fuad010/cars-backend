@@ -1,5 +1,5 @@
 import { Skeleton } from "antd"
-import styles from './card.Skeleton.module.css'
+import styles from './cardSkeleton.module.css'
 
 export const CardSkeleton = () => {
     return (

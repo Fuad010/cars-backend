@@ -1,0 +1,1 @@
+export { CarListPagination } from './ui/carListPagination'

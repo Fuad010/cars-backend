@@ -4,55 +4,82 @@ import { Car } from "shared/api/cars/model";
 
 class CarStore {
     carList: Car[] = [];
+    carListLimited: Car[] = [];
     car?: Car;
     isLoading = false;
     carListError = '';
     carError = '';
+    isExistCar = false;
     isUpdateLoading = false;
 
     constructor() {
         makeAutoObservable(this)
     }
 
-    getCarList = async (count?:number) => {
-            try {
-            this.isLoading = true;
-            const data = await getCars(count);
+    getCarList = async () => {
+        try {
+        this.isLoading = true;
+        
+        const data = await getCars();
 
-            runInAction(() =>{
-                this.isLoading = false;
-                this.carList = data.cars;
-            })
+        runInAction(() =>{
+            this.isLoading = false;
+            this.carList = data.cars;
             
-        } catch (error) {
-            if (error instanceof Error) {
-                runInAction(() => {
-                    this.isLoading = false;
-                    this.carListError = error.message as string
-                })
-            }
+        })
+        
+    } catch (error) {
+        if (error instanceof Error) {
+            runInAction(() => {
+                this.isLoading = false;
+                this.carListError = error.message as string
+            })
         }
     }
+    }
 
-    getCar = async (id: string) => 
-    {
+    getCarListLimited = async (count:number) => {
         try {
-            this.isLoading = true;
+        this.isLoading = true;
+        
+        const data = await getCars(count);
 
-            const data = await getCarById(id);
+        runInAction(() =>{
+            this.isLoading = false;
+            this.carListLimited = data.cars;
             
-            runInAction(() =>{
+        })
+        
+    } catch (error) {
+        if (error instanceof Error) {
+            runInAction(() => {
                 this.isLoading = false;
-                this.car = data
+                this.carListError = error.message as string
+            })
+        }
+    }
+    }
+
+    getCar = async (id: string) => {
+        try {
+            this.isExistCar = false
+            this.isLoading = true;
+            const data = await getCarById(id);
+            runInAction(() => {
+                this.isLoading = false;
+                this.car = data;
+                this.isExistCar = false;
             });
         } catch (error) {
-            if (error instanceof Error) {
-                runInAction(() => {
-                    this.isLoading = false;
-                    this.carListError = error.message as string
-                })
-            }
+            runInAction(() => {
+                this.isLoading = false;
+                this.isExistCar = true;
+        });
         }
+    };
+
+    getIsExistCar = async (id: string) =>{
+
     }
 
     updateCar = async (car: Car) => {

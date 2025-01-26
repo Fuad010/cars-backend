@@ -1,0 +1,1 @@
+export { CarDetailsNames } from './ui/carDetailsNames'

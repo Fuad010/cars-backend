@@ -110,37 +110,6 @@ namespace Cars.Persistence.Services
                 _dbContext.Cars.AddRange(new List<Car> {
                     new Car
                     {
-                        Id = Guid.Parse("c1c4645c-6881-4be4-9a93-c354a34a9acb"),
-                        Name = "Prius",
-                        BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
-                        CarColorId = Guid.Parse("0ec4b2f6-2a9a-4647-9b13-a390c23e35da"),
-                        BoxId = Guid.Parse("a8c6600c-dc32-45a0-8a3f-280b907bbc21"),
-                        SteeringWheelId = Guid.Parse("50c97d1e-0445-46eb-b9d9-80b6af93f147"),
-                        BodyId = Guid.Parse("256f454b-5762-4d96-81c3-c0d26350a09e"),
-                        Engine = "1.8L I4",
-                        Mileage = 10000,
-                        Year = 2021,
-                        Price = 20000,
-                        Images = new List<CarImage>
-                        {
-                            new ()
-                            {
-                                Id = Guid.NewGuid(),
-                                CarId = Guid.Parse("c1c4645c-6881-4be4-9a93-c354a34a9acb"),
-                                ImageUrl = @"wwwroot\images\953bf1a4-ad84-4d46-be0f-e7da19e96ddf.jpg"
-                            },
-                            new ()
-                            {
-                                Id = Guid.NewGuid(),
-                                CarId = Guid.Parse("c1c4645c-6881-4be4-9a93-c354a34a9acb"),
-                                ImageUrl = @"wwwroot\images\959c4ec5-624c-48d5-b88a-c2c5258dc8d2.jpg"
-                            },
-                        },
-                        CreationDate = DateTime.Now,
-                        EditDate = null,
-                    },
-                    new Car
-                    {
                         Id = Guid.Parse("c1c4645c-6881-4be4-9a93-c354a34a9acc"),
                         Name = "Prius Camaro",
                         BrandId = Guid.Parse("d2fdcf17-7301-491e-a549-7885ebd99ad4"),
@@ -158,13 +127,13 @@ namespace Cars.Persistence.Services
                             {
                                 Id = Guid.NewGuid(),
                                 CarId = Guid.Parse("c1c4645c-6881-4be4-9a93-c354a34a9acc"),
-                                ImageUrl = @"wwwroot\images\953bf1a4-ad84-4d46-be0f-e7da19e96ddf.jpg"
+                                ImageUrl = @"images\953bf1a4-ad84-4d46-be0f-e7da19e96ddf.jpg"
                             },
                             new ()
                             {
                                 Id = Guid.NewGuid(),
                                 CarId = Guid.Parse("c1c4645c-6881-4be4-9a93-c354a34a9acc"),
-                                ImageUrl = @"wwwroot\images\959c4ec5-624c-48d5-b88a-c2c5258dc8d2.jpg"
+                                ImageUrl = @"images\959c4ec5-624c-48d5-b88a-c2c5258dc8d2.jpg"
                             },
                         },
                         CreationDate = DateTime.Now,

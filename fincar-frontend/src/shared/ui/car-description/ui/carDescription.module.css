@@ -1,0 +1,15 @@
+.content > p {
+    color: var(--Neutral-Text-Soft, #8990B9);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 20px;
+}
+
+.content > h5 {
+    color: var(--Neutral-Text-Dark, #505673);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
