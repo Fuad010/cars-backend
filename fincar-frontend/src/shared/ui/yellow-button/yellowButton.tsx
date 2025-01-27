@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom"
 
 export const YellowButton = () => {
     const location = useLocation();
-    const isDashboardPage = location.pathname === '/dashboard';
+    const isDashboardPage = location.pathname.includes(`/dashboard`);
 
     return (
         <>

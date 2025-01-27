@@ -10,7 +10,7 @@ interface CarDetailsNamesProps{
 }
 
 export const CarDetailsNames = observer(({id}:CarDetailsNamesProps) =>{
-    const { store: { getCar, car, carListError } } 
+    const { store: { getCar, car } } 
     = carModel
     useEffect(()=>{
         getCar(id);

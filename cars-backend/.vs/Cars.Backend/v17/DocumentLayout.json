@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\cars\\commands\\creaetecar\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 146,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\FileService.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\Services\\FileService.cs",
@@ -146,7 +146,8 @@
               "RelativeToolTip": "Cars.Persistence\\Services\\FileService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:50:01.473Z"
+              "WhenOpened": "2025-01-25T18:50:01.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -186,13 +187,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DatabaseInitializer.cs",
               "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\DatabaseInitializer.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\Services\\DatabaseInitializer.cs",
               "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\DatabaseInitializer.cs",
               "RelativeToolTip": "Cars.Persistence\\Services\\DatabaseInitializer.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAASwJoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAASwKUAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T12:38:36.293Z",
               "EditorCaption": ""
