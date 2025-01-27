@@ -18,10 +18,7 @@ export const CarListPagination = observer (() =>{
     }
     return(
         <div className={styles.wrapper}>
-             {isLoading ? ( 
-                <SkeletonContainer defaultCount={4} />
-            ) : ( 
-                carList.map((car)=>(
+                {carList.map((car)=>(
                 <CarCard
                     key={car.id}
                     id={car.id}
@@ -33,7 +30,7 @@ export const CarListPagination = observer (() =>{
                     price={car.price}
                     image={car.images[0]}
                 />
-            )))}
+            ))}
         </div>
     )
 })

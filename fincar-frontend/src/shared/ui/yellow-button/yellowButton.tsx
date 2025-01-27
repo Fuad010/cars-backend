@@ -9,7 +9,7 @@ export const YellowButton = () => {
     return (
         <>
             {!isDashboardPage &&
-                <NavLink className={styles.yellowButton} to={"/dashboard"}>
+                <NavLink className={styles.yellowButton} to={"/dashboard/see-all-cars"}>
                     Go to dashboard
                 </NavLink>
             }

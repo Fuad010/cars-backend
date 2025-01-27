@@ -7,12 +7,13 @@ export const Sidebar = () => {
     const [isActiveButton, setIsActiveButton] = useState<boolean>(false);
 
     const location = useLocation();
-
+    console.log(location);
+    
     useEffect(() => {
-        if (location.pathname.includes(`dashboard/`)) {
-            setIsActiveButton(false);
-        } else {
+        if (location.pathname.includes(`/dashboard/see-all-cars`)) {
             setIsActiveButton(true);
+        } else {
+            setIsActiveButton(false);
         }
     }, [location.pathname]); 
 
@@ -20,7 +21,7 @@ export const Sidebar = () => {
         <div className={styles.wrapper}>
             
             <Link 
-                to="/dashboard" 
+                to="/dashboard/see-all-cars" 
                 className={isActiveButton ? styles.active : ''} 
             >
                 See All Cars

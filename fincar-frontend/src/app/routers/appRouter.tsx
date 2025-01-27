@@ -2,7 +2,7 @@ import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Layout } from "app/layout";
 import { Home } from "pages/home";
 import { CarDetails } from "pages/car-details";
-import { Dashboard } from "pages/dashboard";
+import { DashboardLayout } from "pages/dashboard";
 
 export const router = createBrowserRouter([
     {
@@ -23,12 +23,18 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/dashboard",
-                element: <Dashboard />
+                element: <DashboardLayout />,
+                children:[
+                    {
+                        path:"/dashboard/see-all-cars",
+                        element:<></>
+                    },
+                    {
+                        path: "/dashboard/create-new-car",
+                        element: <></>
+                    }
+                ]
             },
-            {
-                path: "/dashboard/create-new-car",
-                element: <Dashboard />
-            }
         ]
     }
 ])
