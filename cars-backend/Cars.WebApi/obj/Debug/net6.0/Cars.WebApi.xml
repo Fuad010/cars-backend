@@ -4,5 +4,12 @@
         <name>Cars.WebApi</name>
     </assembly>
     <members>
+        <member name="M:Cars.WebApi.Controllers.CarController.GetAll(System.Nullable{System.Int32})">
+            <summary>
+            Get a list of cars (you can specify how many of the latest to return)
+            </summary>
+            <param name="count">Number of latest cars</param>
+            <returns>List of cars</returns>
+        </member>
     </members>
 </doc>

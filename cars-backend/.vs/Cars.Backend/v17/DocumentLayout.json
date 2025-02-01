@@ -1,125 +1,125 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\",
+  "WorkspaceRootPath": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\cars\\commands\\creaetecar\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\commands\\creaetecar\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\cars\\queries\\getcarlist\\getcarlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\queries\\getcarlist\\getcarlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.webapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.webapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|solutionrelative:cars.webapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\cars\\queries\\getcarlist\\getcarlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.persistence\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\services\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.application\\cars\\commands\\creaetecar\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\commands\\creaetecar\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.application\\cars\\queries\\getcarlist\\getcarlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\queries\\getcarlist\\getcarlistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.application\\cars\\queries\\getcarlist\\getcarlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\queries\\getcarlist\\getcarlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\cars\\queries\\getcarlist\\carlookupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.application\\cars\\queries\\getcarlist\\carlookupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\queries\\getcarlist\\carlookupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\entitytypeconfigurations\\steeringwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.persistence\\entitytypeconfigurations\\steeringwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\entitytypeconfigurations\\steeringwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Cars.Domain\\Cars.Domain.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.domain\\car\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Cars.Domain\\Cars.Domain.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.domain\\car\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Cars.Domain\\Cars.Domain.csproj|solutionrelative:cars.domain\\car\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\cars\\commands\\updatecar\\updatecarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.application\\cars\\commands\\updatecar\\updatecarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\commands\\updatecar\\updatecarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.webapi\\models\\cardto\\updatecardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.webapi\\models\\cardto\\updatecardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|solutionrelative:cars.webapi\\models\\cardto\\updatecardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\cars\\queries\\getcardetails\\getcardetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.application\\cars\\queries\\getcardetails\\getcardetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\queries\\getcardetails\\getcardetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\cars\\queries\\getcardetails\\cardetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.application\\cars\\queries\\getcardetails\\cardetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\queries\\getcardetails\\cardetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.webapi\\models\\steeringwheeldto\\createsteeringwheeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.webapi\\models\\steeringwheeldto\\createsteeringwheeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|solutionrelative:cars.webapi\\models\\steeringwheeldto\\createsteeringwheeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.webapi\\models\\carcolordto\\createcarcolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.webapi\\models\\carcolordto\\createcarcolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|solutionrelative:cars.webapi\\models\\carcolordto\\createcarcolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.webapi\\models\\branddto\\createbranddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.webapi\\models\\branddto\\createbranddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|solutionrelative:cars.webapi\\models\\branddto\\createbranddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.webapi\\models\\boxdto\\createboxdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.webapi\\models\\boxdto\\createboxdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|solutionrelative:cars.webapi\\models\\boxdto\\createboxdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.webapi\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.webapi\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|solutionrelative:cars.webapi\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\carbrands\\commands\\createbrand\\createbrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.application\\carbrands\\commands\\createbrand\\createbrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\carbrands\\commands\\createbrand\\createbrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\carboxes\\commands\\createbox\\createboxcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.application\\carboxes\\commands\\createbox\\createboxcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\carboxes\\commands\\createbox\\createboxcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.webapi\\controllers\\boxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.webapi\\controllers\\boxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|solutionrelative:cars.webapi\\controllers\\boxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\carcolors\\commands\\createcolor\\createcarcolorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.application\\carcolors\\commands\\createcolor\\createcarcolorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\carcolors\\commands\\createcolor\\createcarcolorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.webapi\\controllers\\carcolorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.webapi\\controllers\\carcolorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D5EABE-B50E-40D3-ACE2-3B21008229BB}|Cars.WebApi\\Cars.WebApi.csproj|solutionrelative:cars.webapi\\controllers\\carcolorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.application\\carsteeringwheels\\commands\\createsteeringwheel\\createsteeringwheelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.application\\carsteeringwheels\\commands\\createsteeringwheel\\createsteeringwheelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76218B8F-3048-4FC7-8CC5-5399BF0BFEBA}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\carsteeringwheels\\commands\\createsteeringwheel\\createsteeringwheelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\entitytypeconfigurations\\carcolorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.persistence\\entitytypeconfigurations\\carcolorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\entitytypeconfigurations\\carcolorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\entitytypeconfigurations\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.persistence\\entitytypeconfigurations\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\entitytypeconfigurations\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\entitytypeconfigurations\\boxconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.persistence\\entitytypeconfigurations\\boxconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\entitytypeconfigurations\\boxconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\entitytypeconfigurations\\bodyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.persistence\\entitytypeconfigurations\\bodyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\entitytypeconfigurations\\bodyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Cars.Domain\\Cars.Domain.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.domain\\car\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Cars.Domain\\Cars.Domain.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.domain\\car\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EFC8B34-202A-4E9C-A732-E712B13C0B4E}|Cars.Domain\\Cars.Domain.csproj|solutionrelative:cars.domain\\car\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar\\cars-backend\\cars.persistence\\entitytypeconfigurations\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\cars.persistence\\entitytypeconfigurations\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3C81C6-3B74-4D45-B66F-DEDE2C2453EC}|Cars.Persistence\\Cars.Persistence.csproj|solutionrelative:cars.persistence\\entitytypeconfigurations\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -130,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 146,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,24 +138,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FileService.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\FileService.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\Services\\FileService.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\Services\\FileService.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\FileService.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\Services\\FileService.cs",
               "RelativeToolTip": "Cars.Persistence\\Services\\FileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:50:01.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T18:50:01.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GetCarListQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
               "RelativeDocumentMoniker": "Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
               "RelativeToolTip": "Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQueryHandler.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAnwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -165,9 +164,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "GetCarListQuery.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQuery.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQuery.cs",
               "RelativeDocumentMoniker": "Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQuery.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQuery.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQuery.cs",
               "RelativeToolTip": "Cars.Application\\Cars\\Queries\\GetCarList\\GetCarListQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -177,9 +176,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "UpdateCarCommand.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
               "RelativeDocumentMoniker": "Cars.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
               "RelativeToolTip": "Cars.Application\\Cars\\Commands\\UpdateCar\\UpdateCarCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -187,11 +186,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DatabaseInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\Services\\DatabaseInitializer.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\Services\\DatabaseInitializer.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\Services\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\Services\\DatabaseInitializer.cs",
               "RelativeToolTip": "Cars.Persistence\\Services\\DatabaseInitializer.cs",
               "ViewState": "AgIAAJAAAAAAAAAAAAASwKUAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,11 +198,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Cars.WebApi\\Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Cars.WebApi\\Controllers\\CarController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T11:29:53.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CreateCarCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
               "RelativeDocumentMoniker": "Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
               "RelativeToolTip": "Cars.Application\\Cars\\Commands\\CreaeteCar\\CreateCarCommandHandler.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAASwDEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,23 +223,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CarController.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Controllers\\CarController.cs",
-              "RelativeDocumentMoniker": "Cars.WebApi\\Controllers\\CarController.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Controllers\\CarController.cs",
-              "RelativeToolTip": "Cars.WebApi\\Controllers\\CarController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAIA/wB4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T11:29:53.903Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Body.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Domain\\Car\\Body.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Domain\\Car\\Body.cs",
               "RelativeDocumentMoniker": "Cars.Domain\\Car\\Body.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Domain\\Car\\Body.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Domain\\Car\\Body.cs",
               "RelativeToolTip": "Cars.Domain\\Car\\Body.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -237,9 +237,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "SteeringWheel.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\SteeringWheel.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\SteeringWheel.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\EntityTypeConfigurations\\SteeringWheel.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\SteeringWheel.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\SteeringWheel.cs",
               "RelativeToolTip": "Cars.Persistence\\EntityTypeConfigurations\\SteeringWheel.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -249,9 +249,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "CarLookupDto.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
               "RelativeDocumentMoniker": "Cars.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
               "RelativeToolTip": "Cars.Application\\Cars\\Queries\\GetCarList\\CarLookupDto.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAqwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -261,9 +261,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "UpdateCarDto.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Models\\CarDto\\UpdateCarDto.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Models\\CarDto\\UpdateCarDto.cs",
               "RelativeDocumentMoniker": "Cars.WebApi\\Models\\CarDto\\UpdateCarDto.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Models\\CarDto\\UpdateCarDto.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Models\\CarDto\\UpdateCarDto.cs",
               "RelativeToolTip": "Cars.WebApi\\Models\\CarDto\\UpdateCarDto.cs",
               "ViewState": "AgIAABAAAAAAAAAAAIAxwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -273,9 +273,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "CreateSteeringWheelDto.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Models\\SteeringWheelDto\\CreateSteeringWheelDto.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Models\\SteeringWheelDto\\CreateSteeringWheelDto.cs",
               "RelativeDocumentMoniker": "Cars.WebApi\\Models\\SteeringWheelDto\\CreateSteeringWheelDto.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Models\\SteeringWheelDto\\CreateSteeringWheelDto.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Models\\SteeringWheelDto\\CreateSteeringWheelDto.cs",
               "RelativeToolTip": "Cars.WebApi\\Models\\SteeringWheelDto\\CreateSteeringWheelDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -285,9 +285,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "CreateCarColorDto.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Models\\CarColorDto\\CreateCarColorDto.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Models\\CarColorDto\\CreateCarColorDto.cs",
               "RelativeDocumentMoniker": "Cars.WebApi\\Models\\CarColorDto\\CreateCarColorDto.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Models\\CarColorDto\\CreateCarColorDto.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Models\\CarColorDto\\CreateCarColorDto.cs",
               "RelativeToolTip": "Cars.WebApi\\Models\\CarColorDto\\CreateCarColorDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -297,9 +297,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "CreateBrandDto.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Models\\BrandDto\\CreateBrandDto.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Models\\BrandDto\\CreateBrandDto.cs",
               "RelativeDocumentMoniker": "Cars.WebApi\\Models\\BrandDto\\CreateBrandDto.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Models\\BrandDto\\CreateBrandDto.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Models\\BrandDto\\CreateBrandDto.cs",
               "RelativeToolTip": "Cars.WebApi\\Models\\BrandDto\\CreateBrandDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -309,9 +309,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "CarDetailsVm.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
               "RelativeDocumentMoniker": "Cars.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
               "RelativeToolTip": "Cars.Application\\Cars\\Queries\\GetCarDetails\\CarDetailsVm.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAswA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -321,9 +321,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "GetCarDetailsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
               "RelativeDocumentMoniker": "Cars.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
               "RelativeToolTip": "Cars.Application\\Cars\\Queries\\GetCarDetails\\GetCarDetailsQueryHandler.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -333,9 +333,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "CreateBrandCommand.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\CarBrands\\Commands\\CreateBrand\\CreateBrandCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\CarBrands\\Commands\\CreateBrand\\CreateBrandCommand.cs",
               "RelativeDocumentMoniker": "Cars.Application\\CarBrands\\Commands\\CreateBrand\\CreateBrandCommand.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\CarBrands\\Commands\\CreateBrand\\CreateBrandCommand.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\CarBrands\\Commands\\CreateBrand\\CreateBrandCommand.cs",
               "RelativeToolTip": "Cars.Application\\CarBrands\\Commands\\CreateBrand\\CreateBrandCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -345,9 +345,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "CreateBoxCommand.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\CarBoxes\\Commands\\CreateBox\\CreateBoxCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\CarBoxes\\Commands\\CreateBox\\CreateBoxCommand.cs",
               "RelativeDocumentMoniker": "Cars.Application\\CarBoxes\\Commands\\CreateBox\\CreateBoxCommand.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\CarBoxes\\Commands\\CreateBox\\CreateBoxCommand.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\CarBoxes\\Commands\\CreateBox\\CreateBoxCommand.cs",
               "RelativeToolTip": "Cars.Application\\CarBoxes\\Commands\\CreateBox\\CreateBoxCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -357,9 +357,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "CreateCarColorCommand.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\CarColors\\Commands\\CreateColor\\CreateCarColorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\CarColors\\Commands\\CreateColor\\CreateCarColorCommand.cs",
               "RelativeDocumentMoniker": "Cars.Application\\CarColors\\Commands\\CreateColor\\CreateCarColorCommand.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\CarColors\\Commands\\CreateColor\\CreateCarColorCommand.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\CarColors\\Commands\\CreateColor\\CreateCarColorCommand.cs",
               "RelativeToolTip": "Cars.Application\\CarColors\\Commands\\CreateColor\\CreateCarColorCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -369,9 +369,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "BrandController.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Controllers\\BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "Cars.WebApi\\Controllers\\BrandController.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Controllers\\BrandController.cs",
               "RelativeToolTip": "Cars.WebApi\\Controllers\\BrandController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAA1wCEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -381,9 +381,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "CreateBoxDto.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Models\\BoxDto\\CreateBoxDto.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Models\\BoxDto\\CreateBoxDto.cs",
               "RelativeDocumentMoniker": "Cars.WebApi\\Models\\BoxDto\\CreateBoxDto.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Models\\BoxDto\\CreateBoxDto.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Models\\BoxDto\\CreateBoxDto.cs",
               "RelativeToolTip": "Cars.WebApi\\Models\\BoxDto\\CreateBoxDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -393,9 +393,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "CarColorController.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Controllers\\CarColorController.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Controllers\\CarColorController.cs",
               "RelativeDocumentMoniker": "Cars.WebApi\\Controllers\\CarColorController.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Controllers\\CarColorController.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Controllers\\CarColorController.cs",
               "RelativeToolTip": "Cars.WebApi\\Controllers\\CarColorController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -405,9 +405,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "BoxController.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Controllers\\BoxController.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Controllers\\BoxController.cs",
               "RelativeDocumentMoniker": "Cars.WebApi\\Controllers\\BoxController.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.WebApi\\Controllers\\BoxController.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.WebApi\\Controllers\\BoxController.cs",
               "RelativeToolTip": "Cars.WebApi\\Controllers\\BoxController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -417,9 +417,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "CreateSteeringWheelCommand.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\CarSteeringWheels\\Commands\\CreateSteeringWheel\\CreateSteeringWheelCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\CarSteeringWheels\\Commands\\CreateSteeringWheel\\CreateSteeringWheelCommand.cs",
               "RelativeDocumentMoniker": "Cars.Application\\CarSteeringWheels\\Commands\\CreateSteeringWheel\\CreateSteeringWheelCommand.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Application\\CarSteeringWheels\\Commands\\CreateSteeringWheel\\CreateSteeringWheelCommand.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Application\\CarSteeringWheels\\Commands\\CreateSteeringWheel\\CreateSteeringWheelCommand.cs",
               "RelativeToolTip": "Cars.Application\\CarSteeringWheels\\Commands\\CreateSteeringWheel\\CreateSteeringWheelCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -429,9 +429,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "CarColorConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\CarColorConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\CarColorConfiguration.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\EntityTypeConfigurations\\CarColorConfiguration.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\CarColorConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\CarColorConfiguration.cs",
               "RelativeToolTip": "Cars.Persistence\\EntityTypeConfigurations\\CarColorConfiguration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -441,9 +441,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "BrandConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BrandConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BrandConfiguration.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\EntityTypeConfigurations\\BrandConfiguration.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BrandConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BrandConfiguration.cs",
               "RelativeToolTip": "Cars.Persistence\\EntityTypeConfigurations\\BrandConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -453,9 +453,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "BoxConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BoxConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BoxConfiguration.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\EntityTypeConfigurations\\BoxConfiguration.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BoxConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BoxConfiguration.cs",
               "RelativeToolTip": "Cars.Persistence\\EntityTypeConfigurations\\BoxConfiguration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -465,9 +465,9 @@
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "CarConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\CarConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\CarConfiguration.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\EntityTypeConfigurations\\CarConfiguration.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\CarConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\CarConfiguration.cs",
               "RelativeToolTip": "Cars.Persistence\\EntityTypeConfigurations\\CarConfiguration.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -477,9 +477,9 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "BodyConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BodyConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BodyConfiguration.cs",
               "RelativeDocumentMoniker": "Cars.Persistence\\EntityTypeConfigurations\\BodyConfiguration.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BodyConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Persistence\\EntityTypeConfigurations\\BodyConfiguration.cs",
               "RelativeToolTip": "Cars.Persistence\\EntityTypeConfigurations\\BodyConfiguration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -489,9 +489,9 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "Box.cs",
-              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Domain\\Car\\Box.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Domain\\Car\\Box.cs",
               "RelativeDocumentMoniker": "Cars.Domain\\Car\\Box.cs",
-              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fincar\\cars-backend\\Cars.Domain\\Car\\Box.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincar-project\\cars-backend\\Cars.Domain\\Car\\Box.cs",
               "RelativeToolTip": "Cars.Domain\\Car\\Box.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

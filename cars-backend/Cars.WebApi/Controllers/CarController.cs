@@ -22,6 +22,11 @@ namespace Cars.WebApi.Controllers
             _mapper = mapper;
         }
 
+        /// <summary>
+        /// Get a list of cars (you can specify how many of the latest to return)
+        /// </summary>
+        /// <param name="count">Number of latest cars</param>
+        /// <returns>List of cars</returns>
         [HttpGet]
         public async Task<ActionResult<CarListVm>> GetAll(int? count)
         {

@@ -1,0 +1,1 @@
+export { CarDetailsWrapper } from './ui/carDetailsWrapper'

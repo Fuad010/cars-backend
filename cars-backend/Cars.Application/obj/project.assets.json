@@ -993,11 +993,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.Application\\Cars.Application.csproj",
+      "projectUniqueName": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\fincar-project\\cars-backend\\Cars.Application\\Cars.Application.csproj",
       "projectName": "Cars.Application",
-      "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.Application\\Cars.Application.csproj",
+      "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\fincar-project\\cars-backend\\Cars.Application\\Cars.Application.csproj",
       "packagesPath": "C:\\Users\\dezhu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.Application\\obj\\",
+      "outputPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\fincar-project\\cars-backend\\Cars.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1019,8 +1019,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.Domain\\Cars.Domain.csproj": {
-              "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\Fincar\\cars-backend\\Cars.Domain\\Cars.Domain.csproj"
+            "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\fincar-project\\cars-backend\\Cars.Domain\\Cars.Domain.csproj": {
+              "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\fincar-project\\cars-backend\\Cars.Domain\\Cars.Domain.csproj"
             }
           }
         }

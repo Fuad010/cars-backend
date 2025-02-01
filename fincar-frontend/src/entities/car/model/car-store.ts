@@ -78,10 +78,6 @@ class CarStore {
         }
     };
 
-    getIsExistCar = async (id: string) =>{
-
-    }
-
     updateCar = async (car: Car) => {
         try{
             this.isUpdateLoading = true;

@@ -15,13 +15,13 @@ export const Footer = () => {
                     <p>Social networks</p>
                     <div className={styles.socialContainer}>
                         <div>
-                            <Link to="https://github.com/Fuad010/fincar-project">
+                            <Link target='blank' to="https://github.com/Fuad010/fincar-project">
                                 <img src={githubLogo} alt="githubLogo" />
                             </Link>
                         </div>
                         <div>
-                            <Link to="https://github.com/Fuad010/fincar-project">
-                                <img src={linkedinLogo} alt="githubLogo" />
+                            <Link target='blank' to="https://www.linkedin.com/in/fuadtopchiyev/">
+                                <img src={linkedinLogo} alt="linkedinLogo" />
                             </Link>
                         </div>
                     </div>

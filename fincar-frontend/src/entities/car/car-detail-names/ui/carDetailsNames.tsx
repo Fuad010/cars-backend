@@ -3,14 +3,14 @@ import { carModel } from 'entities/car'
 import styles from './carDetailsNames.module.css'
 import { observer } from 'mobx-react-lite'
 import { useEffect } from 'react'
-import { keys } from 'mobx'
+import { Skeleton } from 'antd'
 
 interface CarDetailsNamesProps{
     id:string
 }
 
 export const CarDetailsNames = observer(({id}:CarDetailsNamesProps) =>{
-    const { store: { getCar, car } } 
+    const { store: { getCar, car, isLoading } } 
     = carModel
     useEffect(()=>{
         getCar(id);
@@ -28,6 +28,21 @@ export const CarDetailsNames = observer(({id}:CarDetailsNamesProps) =>{
         },
         { label: 'Body', value: car?.bodyType ?? '' },
     ];
+
+    if (isLoading) {
+        return(
+        <div className={styles.wrapper}>
+            <h1><Skeleton.Input active={true} size="small" /></h1>
+            <h2><Skeleton.Input active={true} size="small" /></h2>
+            <div className={styles.content}>
+                <h2><Skeleton.Input active={true} size="large" /></h2>
+                <h2><Skeleton.Input active={true} size="large" /></h2>
+                <h2><Skeleton.Input active={true} size="large" /></h2>
+                <h2><Skeleton.Input active={true} size="large" /></h2>
+            </div>
+        </div>
+        )
+    }
 
     return(
         <div className={styles.wrapper}>

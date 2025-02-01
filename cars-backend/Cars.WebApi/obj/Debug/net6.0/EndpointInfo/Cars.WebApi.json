@@ -313,10 +313,12 @@
         "tags": [
           "Car"
         ],
+        "summary": "Get a list of cars (you can specify how many of the latest to return)",
         "parameters": [
           {
             "name": "count",
             "in": "query",
+            "description": "Number of latest cars",
             "schema": {
               "type": "integer",
               "format": "int32"
