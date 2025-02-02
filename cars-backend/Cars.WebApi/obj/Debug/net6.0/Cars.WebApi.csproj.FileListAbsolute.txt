@@ -248,7 +248,6 @@ C:\Users\dezhu\OneDrive\Рабочий стол\fincar-project\cars-backend\Cars
 C:\Users\dezhu\OneDrive\Рабочий стол\fincar-project\cars-backend\Cars.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Cars.WebApi.props
 C:\Users\dezhu\OneDrive\Рабочий стол\fincar-project\cars-backend\Cars.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Cars.WebApi.props
 C:\Users\dezhu\OneDrive\Рабочий стол\fincar-project\cars-backend\Cars.WebApi\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\dezhu\OneDrive\Рабочий стол\fincar-project\cars-backend\Cars.WebApi\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
 C:\Users\dezhu\OneDrive\Рабочий стол\fincar-project\cars-backend\Cars.WebApi\obj\Debug\net6.0\Cars.Web.5D10AE9A.Up2Date
 C:\Users\dezhu\OneDrive\Рабочий стол\fincar-project\cars-backend\Cars.WebApi\obj\Debug\net6.0\Cars.WebApi.dll
 C:\Users\dezhu\OneDrive\Рабочий стол\fincar-project\cars-backend\Cars.WebApi\obj\Debug\net6.0\refint\Cars.WebApi.dll

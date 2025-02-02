@@ -1,0 +1,64 @@
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    z-index: 19;
+    position: absolute;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.45);
+    transition: 0.2s;
+    transition-timing-function: linear;
+    opacity: 0;
+}
+
+.box > div{
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.box:hover{
+    opacity: 1;
+}
+
+
+.box button{
+    transition: 0.2s;
+    transition-timing-function: linear;
+    width: 152px;
+    height: 32px;
+    display: flex;
+    width: 152px;
+    height: 32px;
+    padding: 8px 33px 8px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 510;
+    box-shadow: none;
+}
+
+.deleteBtn{
+    background: var(--Neutral-Lightest, #F5F6FA);   
+    color: var(--Neutral-Text-Dark, #505673);
+}
+
+.updateBtn{
+    background: #2151D9;
+    color: #F5F5F5;
+}
+
+.updateBtn:hover{
+    background: #0044ff;    
+    cursor: pointer;
+}
+
+.deleteBtn:hover{
+    background: var(--Neutral-Lightest, #d6d6d6);  
+    cursor: pointer;
+}

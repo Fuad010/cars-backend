@@ -1,5 +1,5 @@
 import { makeAutoObservable, runInAction } from "mobx";
-import { getCars, getCarById, updateCar } from "shared/api/cars";
+import { getCars, getCarById, updateCar, deleteCar } from "shared/api/cars";
 import { Car } from "shared/api/cars/model";
 
 class CarStore {
@@ -92,8 +92,10 @@ class CarStore {
 
     deleteCar = async (id: string) => {
         try{
-            await this.deleteCar(id);
-            
+            await deleteCar(id);
+            runInAction(() => {
+                this.carList = this.carList.filter(c => c.id !== id); 
+            });
         } catch (error) {
             throw error;
         }

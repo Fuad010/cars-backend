@@ -28,7 +28,6 @@ export const CarListPagination = observer (() =>{
                     mileage={car.mileage}
                     price={car.price}
                     image={car.images[0]}
-                    actions={car}
                 />
             ))}
         </div>

@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './carCard.module.css';
+import { observer } from 'mobx-react-lite';
 
 const baseUrl = import.meta.env.VITE_API_BASE_URL.replace('/api','')
 
@@ -13,7 +14,7 @@ interface CarCardProps{
     year:number
     engine:string
     image:string
-    actions?:JSX.Element[]
+    actions?:JSX.Element
 }
 
 export const CarCard: FC<CarCardProps> = ({
@@ -28,19 +29,22 @@ export const CarCard: FC<CarCardProps> = ({
     actions
 }) => {
     
-    return(
-        <Link to={`/auto/${id}`} className={styles.card_container}>
+    const Container = !actions ? Link : 'div';
+    const containerProps = !actions ? { to: `/auto/${id}`, className: styles.card_container } : { className: styles.card_container };
+
+    return (
+        <Container {...containerProps as any}>
+                {actions}
             <div className={styles.title_container}>
                 <img src={`${baseUrl}${image}`} alt="car" />
-                {actions}
                 <div className={styles.price_container}>
-                    <div className={styles.price}>{`${price.toLocaleString("en-US")} $`}</div>
+                    <div className={styles.price}>{`${price.toLocaleString('en-US')} $`}</div>
                 </div>
             </div>
             <div className={styles.bottom}>
                 <h1>{brandName} {name}</h1>
                 <p>{year}, {engine}, {mileage} km</p>
             </div>
-        </Link>
-    )
+        </Container>
+    );
 }
