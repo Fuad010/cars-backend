@@ -89,6 +89,15 @@ class CarStore {
             throw error;
         }
     }
+
+    deleteCar = async (id: string) => {
+        try{
+            await this.deleteCar(id);
+            
+        } catch (error) {
+            throw error;
+        }
+    }
 }
 
 export const store = new CarStore();

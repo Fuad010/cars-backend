@@ -13,6 +13,7 @@ interface CarCardProps{
     year:number
     engine:string
     image:string
+    actions?:JSX.Element[]
 }
 
 export const CarCard: FC<CarCardProps> = ({
@@ -24,12 +25,14 @@ export const CarCard: FC<CarCardProps> = ({
     year,
     engine,
     image,
+    actions
 }) => {
     
     return(
         <Link to={`/auto/${id}`} className={styles.card_container}>
             <div className={styles.title_container}>
                 <img src={`${baseUrl}${image}`} alt="car" />
+                {actions}
                 <div className={styles.price_container}>
                     <div className={styles.price}>{`${price.toLocaleString("en-US")} $`}</div>
                 </div>

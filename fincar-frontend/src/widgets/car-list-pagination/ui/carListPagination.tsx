@@ -1,4 +1,3 @@
-import { SkeletonContainer } from 'shared/ui/skeleton-container'
 import styles from './carListPagination.module.css'
 import { carModel } from 'entities/car'
 import { useEffect } from 'react'
@@ -29,6 +28,7 @@ export const CarListPagination = observer (() =>{
                     mileage={car.mileage}
                     price={car.price}
                     image={car.images[0]}
+                    actions={car}
                 />
             ))}
         </div>

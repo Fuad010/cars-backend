@@ -13,3 +13,6 @@ export const getCarById = (id: string) =>
 
 export const updateCar = (car: Car) => 
     httpClient.put(`${SLUG}/${car.id}`, { json: car }).json<Car>();
+
+export const deleteCar = (id: string) =>
+    httpClient.delete(`${SLUG}/${id}`).json<void>();

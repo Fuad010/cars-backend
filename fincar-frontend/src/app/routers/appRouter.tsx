@@ -3,6 +3,7 @@ import { Layout } from "app/layout";
 import { Home } from "pages/home";
 import { CarDetails } from "pages/car-details";
 import { DashboardLayout } from "pages/dashboard";
+import { DashboardSeeAllCars } from "pages/dashboard-see-all-cars/ui/dashboardSeeAllCars";
 
 export const router = createBrowserRouter([
     {
@@ -27,7 +28,7 @@ export const router = createBrowserRouter([
                 children:[
                     {
                         path:"/dashboard/see-all-cars",
-                        element:<></>
+                        element:<DashboardSeeAllCars />
                     },
                     {
                         path: "/dashboard/create-new-car",
