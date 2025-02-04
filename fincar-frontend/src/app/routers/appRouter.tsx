@@ -4,6 +4,7 @@ import { Home } from "pages/home";
 import { CarDetails } from "pages/car-details";
 import { DashboardLayout } from "pages/dashboard";
 import { DashboardSeeAllCars } from "pages/dashboard-see-all-cars/ui/dashboardSeeAllCars";
+import { CreateCarForm } from "features/create-car-form";
 
 export const router = createBrowserRouter([
     {
@@ -32,7 +33,7 @@ export const router = createBrowserRouter([
                     },
                     {
                         path: "/dashboard/create-new-car",
-                        element: <></>
+                        element: <CreateCarForm />
                     }
                 ]
             },

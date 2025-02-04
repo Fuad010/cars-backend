@@ -1,6 +1,6 @@
 .wrapper{
-    /* width: 100%;
-    max-width: 262px; */
+    width: 100%;
+    max-width: 262px;
     border-right: 2px #D9D9D9 solid;
     height: 648px;
     display: flex;
